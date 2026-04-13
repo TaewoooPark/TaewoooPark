@@ -78,16 +78,16 @@ Because this mission requires more than one perspective, I am always open to con
 
 ## Current Work
 
-**Research Intern — KAIST Ultrafast Spin Dynamics Lab** &nbsp;·&nbsp; *Oct 2025 – Present*
+**Research Intern — KAIST Ultrafast Spin Dynamics Lab** &nbsp;·&nbsp; *Oct 2025 – Present*<br>
 Prof. Kab-jin Kim's group. Experimental and theoretical study of ferrimagnetic domain-wall (FiM DW) motion, with a focus on scalability and potential expansion into industrial applications.
 
-**Co-Founder — Stealth AI Startup** &nbsp;·&nbsp; *Aug 2025 – Present* &nbsp;·&nbsp; *Pre-launch, in preparation*
+**Co-Founder — Stealth AI Startup** &nbsp;·&nbsp; *Aug 2025 – Present* &nbsp;·&nbsp; *Pre-launch, in preparation*<br>
 Developing a real-time optimization-driven B2C AI service. Algorithm design, UI design, marketing.
 
-**Director / Editor — HUSTLY ARCHIV** &nbsp;·&nbsp; *Jan 2025 – Present*
+**Director / Editor — HUSTLY ARCHIV** &nbsp;·&nbsp; *Jan 2025 – Present*<br>
 An Instagram platform on culture and philosophy. 3K+ followers, 1M+ views. [@hustlyarchiv.kr](https://www.instagram.com/hustlyarchiv.kr/)
 
-**Member — GDG on Campus, KAIST** &nbsp;·&nbsp; *Mar 2026 – Present*
+**Member — GDG on Campus, KAIST** &nbsp;·&nbsp; *Mar 2026 – Present*<br>
 Google Developers Group, KAIST chapter.
 
 ---
@@ -96,10 +96,10 @@ Google Developers Group, KAIST chapter.
 
 **KAIST**, Bachelor of Science — Physics & Mathematical Science (Double Major) &nbsp;·&nbsp; 2022 – 2029
 
-- **Undergraduate Researcher**, KAIST Quantum Spin Dynamics Lab (Prof. Se-Kwon Kim) &nbsp;·&nbsp; *Jun 2023 – Mar 2024*
+- **Undergraduate Researcher**, KAIST Quantum Spin Dynamics Lab (Prof. Se-Kwon Kim) &nbsp;·&nbsp; *Jun 2023 – Mar 2024*<br>
   Theoretical modeling and simulation of domain-wall motion in spintronics (`mumax3`, Python).
 - **Department Representative**, KAIST Department of Physics &nbsp;·&nbsp; *Mar 2023 – Feb 2024*
-- **Student Ambassador (KAINURI)**, KAIST Department of Physics &nbsp;·&nbsp; *Mar 2022 – Feb 2024*
+- **Student Ambassador (KAINURI)**, KAIST Department of Physics &nbsp;·&nbsp; *Mar 2022 – Feb 2024*<br>
   Designed and executed 6 educational camps; 40+ campus tours and mentoring sessions.
 
 **Gyeongnam Science High School** — Early Graduation &nbsp;·&nbsp; *Mar 2020 – Feb 2022*
