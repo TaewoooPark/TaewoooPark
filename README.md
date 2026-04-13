@@ -81,11 +81,17 @@ Google Developers Group, KAIST chapter.
 
 ## Featured Project
 
-**[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** — Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
+**[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** &nbsp;·&nbsp; Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
 
 <p align="center">
   <a href="https://github.com/TaewoooPark/NODEPROMPT">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TaewoooPark&repo=NODEPROMPT&theme=dark&hide_border=true" alt="NodePrompt repository card">
+    <img src="https://img.shields.io/github/stars/TaewoooPark/NODEPROMPT?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="NodePrompt stars">
+  </a>
+  <a href="https://github.com/TaewoooPark/NODEPROMPT">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/NODEPROMPT?style=for-the-badge&labelColor=000000&color=333333" alt="NodePrompt last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/NODEPROMPT">
+    <img src="https://img.shields.io/github/languages/top/TaewoooPark/NODEPROMPT?style=for-the-badge&labelColor=000000&color=333333" alt="NodePrompt top language">
   </a>
 </p>
 
@@ -94,16 +100,17 @@ Google Developers Group, KAIST chapter.
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TaewoooPark&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=dark" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TaewoooPark&layout=compact&hide_border=true&theme=dark&langs_count=8" alt="Top languages" height="165">
+  <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
+  <img src="https://img.shields.io/github/stars/TaewoooPark?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Stars">
+  <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true" alt="GitHub streak">
+  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true&background=0D1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="GitHub streak">
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TaewoooPark&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub trophies">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TaewoooPark&theme=github-compact&hide_border=true&bg_color=0D1117&color=ffffff&line=ffffff&point=ffffff&area=true" alt="Contribution activity graph">
 </p>
 
 ---
