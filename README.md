@@ -5,10 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=DM+Sans&weight=700&size=20&duration=2800&pause=900&color=000000&background=FFFFFFFF&center=true&vCenter=true&width=760&height=50&lines=Aligning+physics%2C+code%2C+and+culture;Spintronics+researcher+%40+KAIST;Co-founder%2C+stealth+AI+startup;Director%2C+HUSTLY+ARCHIV" alt="Roles typing animation">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/-KAIST-000000?style=flat-square&labelColor=000000" alt="KAIST">
   <img src="https://img.shields.io/badge/-Physics_%26_Math-000000?style=flat-square&labelColor=000000" alt="Physics & Math">
   <img src="https://img.shields.io/badge/-Spintronics-000000?style=flat-square&labelColor=000000" alt="Spintronics">
