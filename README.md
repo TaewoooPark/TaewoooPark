@@ -20,7 +20,7 @@
 
 ## About
 
-I am an undergraduate researcher in theoretical and experimental physics — with a current focus on **Spintronics** — a founder preparing to launch a personal-optimization AI service, and the director of an online platform exploring the discourse between art and philosophy.
+I am an undergraduate researcher in theoretical and experimental physics — with a current focus on **Spintronics** — a founder preparing to launch a personal-optimization AI service, and the director of an online platform exploring the discourse between art & philosophy.
 
 These roles may look distinct, but I do not treat them as separate career paths. Every project is a calculated step toward a single, long-horizon ambition: addressing a fundamental problem I define privately at the scale of civilization. My work attempts to bridge **rigorous physical law**, **algorithmic efficiency**, and **humanistic inquiry** toward that solution.
 
