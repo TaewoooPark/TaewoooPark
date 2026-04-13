@@ -35,14 +35,20 @@
   <img src="https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&logoColor=white&labelColor=000000" alt="React">
   <img src="https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white&labelColor=000000" alt="Three.js">
   <img src="https://img.shields.io/badge/-PyQt5-000000?style=flat-square&logo=qt&logoColor=white&labelColor=000000" alt="PyQt5">
+  <img src="https://img.shields.io/badge/-Algorithms-000000?style=flat-square&labelColor=000000" alt="Algorithms">
+  <img src="https://img.shields.io/badge/-Optimization-000000?style=flat-square&labelColor=000000" alt="Optimization">
+  <img src="https://img.shields.io/badge/-RAG-000000?style=flat-square&labelColor=000000" alt="RAG">
   <img src="https://img.shields.io/badge/-MATLAB-000000?style=flat-square&logo=mathworks&logoColor=white&labelColor=000000" alt="MATLAB">
   <img src="https://img.shields.io/badge/-NumPy-000000?style=flat-square&logo=numpy&logoColor=white&labelColor=000000" alt="NumPy">
   <img src="https://img.shields.io/badge/-mumax3-000000?style=flat-square&labelColor=000000" alt="mumax3">
   <img src="https://img.shields.io/badge/-LabVIEW-000000?style=flat-square&labelColor=000000" alt="LabVIEW">
   <img src="https://img.shields.io/badge/-LaTeX-000000?style=flat-square&logo=latex&logoColor=white&labelColor=000000" alt="LaTeX">
+  <img src="https://img.shields.io/badge/-Obsidian-000000?style=flat-square&logo=obsidian&logoColor=white&labelColor=000000" alt="Obsidian">
+  <img src="https://img.shields.io/badge/-PowerPoint-000000?style=flat-square&logo=microsoftpowerpoint&logoColor=white&labelColor=000000" alt="PowerPoint">
   <img src="https://img.shields.io/badge/-Figma-000000?style=flat-square&logo=figma&logoColor=white&labelColor=000000" alt="Figma">
   <img src="https://img.shields.io/badge/-Adobe_Illustrator-000000?style=flat-square&logo=adobeillustrator&logoColor=white&labelColor=000000" alt="Adobe Illustrator">
   <img src="https://img.shields.io/badge/-AutoCAD-000000?style=flat-square&logo=autodesk&logoColor=white&labelColor=000000" alt="AutoCAD">
+  <img src="https://img.shields.io/badge/-SketchUp-000000?style=flat-square&logo=sketchup&logoColor=white&labelColor=000000" alt="SketchUp">
   <img src="https://img.shields.io/badge/-Git-000000?style=flat-square&logo=git&logoColor=white&labelColor=000000" alt="Git">
 </p>
 
