@@ -1,0 +1,126 @@
+<h1 align="center">Taewoo Park</h1>
+
+<p align="center">
+  <em>Aligning physics, code, and culture toward a civilization-scale solution.</em>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=DM+Sans&weight=300&size=26&duration=2800&pause=900&color=000000&center=true&vCenter=true&width=760&height=60&lines=Aligning+physics%2C+code%2C+and+culture;Spintronics+researcher+%40+KAIST;Co-founder%2C+stealth+AI+startup;Director%2C+HUSTLY+ARCHIV" alt="Roles typing animation">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-KAIST-000000?style=flat-square&labelColor=000000" alt="KAIST">
+  <img src="https://img.shields.io/badge/-Physics_%26_Math-000000?style=flat-square&labelColor=000000" alt="Physics & Math">
+  <img src="https://img.shields.io/badge/-Spintronics-000000?style=flat-square&labelColor=000000" alt="Spintronics">
+  <img src="https://img.shields.io/badge/-AI_Founder-000000?style=flat-square&labelColor=000000" alt="AI Founder">
+  <img src="https://img.shields.io/badge/-Art_%26_Philosophy-000000?style=flat-square&labelColor=000000" alt="Art & Philosophy">
+</p>
+
+---
+
+## About
+
+I am an undergraduate researcher in theoretical and experimental physics — with a current focus on **Spintronics** — a founder preparing to launch a personal-optimization AI service, and the director of an online platform exploring the discourse between art and philosophy.
+
+These roles may look distinct, but I do not treat them as separate career paths. Every project is a calculated step toward a single, long-horizon ambition: addressing a fundamental problem I define privately at the scale of civilization. My work attempts to bridge **rigorous physical law**, **algorithmic efficiency**, and **humanistic inquiry** toward that solution.
+
+Because this mission requires more than one perspective, I am always open to connecting with builders and thinkers across disciplines.
+
+---
+
+## Current Work
+
+**Research Intern — KAIST Ultrafast Spin Dynamics Lab** &nbsp;·&nbsp; *Oct 2025 – Present*
+Prof. Kab-jin Kim's group. Experimental and theoretical study of ferrimagnetic domain-wall (FiM DW) motion, with a focus on scalability and potential expansion into industrial applications.
+
+**Co-Founder — Stealth AI Startup** &nbsp;·&nbsp; *Aug 2025 – Present* &nbsp;·&nbsp; *Pre-launch, in preparation*
+Developing a real-time optimization-driven B2C AI service. Algorithm design, UI design, marketing.
+
+**Director / Editor — HUSTLY ARCHIV** &nbsp;·&nbsp; *Jan 2025 – Present*
+An Instagram platform on culture and philosophy. 3K+ followers, 1M+ views. [@hustlyarchiv.kr](https://www.instagram.com/hustlyarchiv.kr/)
+
+**Member — GDG on Campus, KAIST** &nbsp;·&nbsp; *Mar 2026 – Present*
+Google Developers Group, KAIST chapter.
+
+---
+
+## Background
+
+**KAIST**, Bachelor of Science — Physics & Mathematical Science (Double Major) &nbsp;·&nbsp; 2022 – 2029
+
+- **Undergraduate Researcher**, KAIST Quantum Spin Dynamics Lab (Prof. Se-Kwon Kim) &nbsp;·&nbsp; *Jun 2023 – Mar 2024*
+  Theoretical modeling and simulation of domain-wall motion in spintronics (`mumax3`, Python).
+- **Department Representative**, KAIST Department of Physics &nbsp;·&nbsp; *Mar 2023 – Feb 2024*
+- **Student Ambassador (KAINURI)**, KAIST Department of Physics &nbsp;·&nbsp; *Mar 2022 – Feb 2024*
+  Designed and executed 6 educational camps; 40+ campus tours and mentoring sessions.
+
+**Gyeongnam Science High School** — Early Graduation &nbsp;·&nbsp; *Mar 2020 – Feb 2022*
+
+**Republic of Korea Army** — Sergeant, honorably discharged.
+
+**National Science & Technology Scholarship** — Korea Student Aid Foundation, 2022.
+
+---
+
+## Tech & Tools
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white&labelColor=000000" alt="Python">
+  <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=white&labelColor=000000" alt="TypeScript">
+  <img src="https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&logoColor=white&labelColor=000000" alt="React">
+  <img src="https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white&labelColor=000000" alt="Three.js">
+  <img src="https://img.shields.io/badge/-PyQt5-000000?style=flat-square&logo=qt&logoColor=white&labelColor=000000" alt="PyQt5">
+  <img src="https://img.shields.io/badge/-LabVIEW-000000?style=flat-square&labelColor=000000" alt="LabVIEW">
+  <img src="https://img.shields.io/badge/-mumax3-000000?style=flat-square&labelColor=000000" alt="mumax3">
+  <img src="https://img.shields.io/badge/-NumPy-000000?style=flat-square&logo=numpy&logoColor=white&labelColor=000000" alt="NumPy">
+  <img src="https://img.shields.io/badge/-Figma-000000?style=flat-square&logo=figma&logoColor=white&labelColor=000000" alt="Figma">
+  <img src="https://img.shields.io/badge/-Git-000000?style=flat-square&logo=git&logoColor=white&labelColor=000000" alt="Git">
+</p>
+
+---
+
+## Featured Project
+
+**[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** — Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark/NODEPROMPT">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TaewoooPark&repo=NODEPROMPT&theme=dark&hide_border=true" alt="NodePrompt repository card">
+  </a>
+</p>
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TaewoooPark&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=dark" alt="GitHub stats" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TaewoooPark&layout=compact&hide_border=true&theme=dark&langs_count=8" alt="Top languages" height="165">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true" alt="GitHub streak">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=TaewoooPark&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub trophies">
+</p>
+
+---
+
+## Connect
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://x.com/theoverstrcture"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://www.linkedin.com/in/taewoo-park-427a05352"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/t.wo0_x/"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.instagram.com/hustlyarchiv.kr/"><img src="https://img.shields.io/badge/-HUSTLY_ARCHIV-8E44AD?style=for-the-badge&logo=instagram&logoColor=white" alt="HUSTLY ARCHIV"></a>
+  <a href="mailto:ptw151125@kaist.ac.kr"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
+---
+
+<p align="center">
+  <em>"Calculated steps toward a problem defined at the scale of civilization."</em>
+</p>
