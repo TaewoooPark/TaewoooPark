@@ -27,11 +27,14 @@ jobs:
       - name: Fetch usage.json from Gist
         env:
           GIST_ID: ${{ secrets.GIST_ID }}
-          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
           set -euo pipefail
           mkdir -p scripts
-          gh api "gists/$GIST_ID" --jq '.files."usage.json".content' > scripts/usage.json
+          # Secret gists are readable via the API without auth, so no PAT is needed.
+          curl -fsSL -H "Accept: application/vnd.github+json" \
+               "https://api.github.com/gists/$GIST_ID" \
+            | python3 -c 'import json,sys; d=json.load(sys.stdin); sys.stdout.write(d["files"]["usage.json"]["content"])' \
+            > scripts/usage.json
           test -s scripts/usage.json
           python3 -c "import json; d=json.load(open('scripts/usage.json')); print(f\"daily={len(d['daily'])}, tokens={d['totals']['totalTokens']:,}\")"
 

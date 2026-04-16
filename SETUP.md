@@ -27,23 +27,18 @@ gh gist create --desc "ccusage daily snapshot" /tmp/usage.json
 # copy the hash at the end of the printed URL → this is GIST_ID
 ```
 
-### 2. Create a PAT for Actions to read the Gist
+### 2. Add the GIST_ID repo secret
 
-https://github.com/settings/tokens (classic) → "Generate new token"
+Secret (unlisted) Gists are readable via the public API without auth, so the
+Actions workflow needs only `GIST_ID` — no PAT.
 
-- Scope: **`gist`** only (read is sufficient; write not needed for Actions)
-- Copy the token
+```bash
+gh secret set GIST_ID --body "<hash from step 1>" -R TaewoooPark/TaewoooPark
+```
 
-### 3. Add repo secrets
+Or via UI: repo → Settings → Secrets and variables → Actions → New repository secret.
 
-In the overview repo → Settings → Secrets and variables → Actions → New repository secret:
-
-| name         | value                   |
-| ------------ | ----------------------- |
-| `GIST_ID`    | the hash from step 1    |
-| `GIST_TOKEN` | the PAT from step 2     |
-
-### 4. Prime the Gist (first manual run)
+### 3. Prime the Gist (first manual run)
 
 ```bash
 export CCUSAGE_GIST_ID=<hash from step 1>
@@ -52,13 +47,16 @@ scripts/upload-usage.sh
 
 Verify the Gist now contains a populated `usage.json`.
 
-### 5. Trigger Actions once manually
+### 4. Trigger Actions once manually
 
-In the overview repo → Actions → "Update Claude Code usage SVG" → **Run workflow**.
+```bash
+gh workflow run update-usage-svg.yml -R TaewoooPark/TaewoooPark
+gh run list --workflow update-usage-svg.yml -R TaewoooPark/TaewoooPark -L 1
+```
 
 Confirm it commits `assets/claude-usage.svg`.
 
-### 6. Install the launchd agent
+### 5. Install the launchd agent
 
 ```bash
 # a) edit the plist: set the absolute path to upload-usage.sh on your machine
@@ -97,8 +95,8 @@ The `concurrency` block in the workflow prevents overlapping runs.
 
 ## Troubleshooting
 
-- **Actions fails on `gh api gists/...`**: GIST_TOKEN probably missing the
-  `gist` scope, or GIST_ID is wrong.
+- **Actions fails on `curl gists/...`**: GIST_ID is wrong, or the Gist was
+  deleted. Re-create and update the secret.
 - **launchd silently not firing**: `log show --predicate 'subsystem == "com.apple.xpc.launchd"' --last 1h | grep ccusage`.
 - **Mac was asleep at 00:00**: launchd will fire as soon as the Mac wakes
   (default catch-up behavior for `StartCalendarInterval`).
