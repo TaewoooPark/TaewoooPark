@@ -134,6 +134,14 @@ Google Developers Group, KAIST chapter.
 
 ---
 
+## Claude Code Usage
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/claude-usage.svg" alt="Claude Code usage — last 60 days">
+</p>
+
+---
+
 <p align="center">
   <em>"Calculated steps toward a problem defined at the scale of civilization."</em>
 </p>

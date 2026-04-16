@@ -1,0 +1,54 @@
+name: Update Claude Code usage SVG
+
+on:
+  schedule:
+    # Runs 5 min after the local upload window.
+    # KST 00:00 -> UTC 15:00, KST 12:00 -> UTC 03:00
+    - cron: '5 3,15 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: update-usage-svg
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch usage.json from Gist
+        env:
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p scripts
+          gh api "gists/$GIST_ID" --jq '.files."usage.json".content' > scripts/usage.json
+          test -s scripts/usage.json
+          python3 -c "import json; d=json.load(open('scripts/usage.json')); print(f\"daily={len(d['daily'])}, tokens={d['totals']['totalTokens']:,}\")"
+
+      - name: Render SVG
+        run: |
+          mkdir -p assets
+          python scripts/generate_svg.py scripts/usage.json assets/claude-usage.svg
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/claude-usage.svg
+          if git diff --cached --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "chore: refresh Claude Code usage SVG"
+          git push

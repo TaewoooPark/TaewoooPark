@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.me.ccusage-upload</string>
+
+  <!--
+    Runs upload-usage.sh at 00:00 and 12:00 local time (KST).
+    Edit the absolute path below to match your checkout location,
+    and replace REPLACE_WITH_GIST_ID with the Gist ID.
+  -->
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>/Users/taewoopark/github/overview/scripts/upload-usage.sh</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>CCUSAGE_GIST_ID</key>
+    <string>REPLACE_WITH_GIST_ID</string>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Hour</key>
+      <integer>0</integer>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>Hour</key>
+      <integer>12</integer>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
+  </array>
+
+  <!-- If the Mac was asleep at the scheduled time, run as soon as it wakes. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/ccusage-upload.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/ccusage-upload.err</string>
+</dict>
+</plist>
