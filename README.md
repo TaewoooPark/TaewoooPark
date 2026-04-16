@@ -72,6 +72,32 @@
 
 ---
 
+## Claude-code Usage
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/claude-usage.svg" alt="Claude Code usage — last 60 days">
+</p>
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
+  <img src="https://img.shields.io/github/stars/TaewoooPark?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Stars">
+  <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true&background=0D1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="GitHub streak">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TaewoooPark&theme=github-compact&hide_border=true&bg_color=0D1117&color=ffffff&line=ffffff&point=ffffff&area=true" alt="Contribution activity graph">
+</p>
+
+---
+
 ## About
 
 I am an undergraduate researcher in theoretical and experimental physics — with a current focus on **Spintronics** — a founder preparing to launch a personal-optimization AI service, and the director of an online platform exploring the discourse between art and philosophy.
@@ -113,32 +139,6 @@ Google Developers Group, KAIST chapter.
 **Republic of Korea Army** — Sergeant, honorably discharged.
 
 **National Science & Technology Scholarship** — Korea Student Aid Foundation, 2022.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
-  <img src="https://img.shields.io/github/stars/TaewoooPark?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Stars">
-  <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true&background=0D1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="GitHub streak">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TaewoooPark&theme=github-compact&hide_border=true&bg_color=0D1117&color=ffffff&line=ffffff&point=ffffff&area=true" alt="Contribution activity graph">
-</p>
-
----
-
-## Claude Code Usage
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/claude-usage.svg" alt="Claude Code usage — last 60 days">
-</p>
 
 ---
 
