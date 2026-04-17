@@ -72,7 +72,7 @@
 
 ---
 
-## Claude-code Usage
+## Claude-code Usage (Last 60 Days)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/claude-usage.svg" alt="Claude Code usage — last 60 days">
