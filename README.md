@@ -54,7 +54,7 @@
 
 ---
 
-## Featured Project
+## Featured Projects
 
 **[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** &nbsp;·&nbsp; Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
 
@@ -67,6 +67,20 @@
   </a>
   <a href="https://github.com/TaewoooPark/NODEPROMPT">
     <img src="https://img.shields.io/github/languages/top/TaewoooPark/NODEPROMPT?style=for-the-badge&labelColor=000000&color=333333" alt="NodePrompt top language">
+  </a>
+</p>
+
+**[Paideia](https://github.com/TaewoooPark/PAIDEIA)** &nbsp;·&nbsp; A Claude Code plugin that turns raw course materials into a permanent, editable, per-course study graph. Solution patterns are extracted from the user's own solutions, drill priority is weighted by the professor's homework emphasis, and handwritten answers are OCR'd via Claude native vision — with optional local Qwen3-VL or Tesseract — then strategy-graded into an append-only weakness report. Every artifact is plain markdown the user can edit. Built with Python, the Claude Code plugin API, and Ollama.
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark/PAIDEIA">
+    <img src="https://img.shields.io/github/stars/TaewoooPark/PAIDEIA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia stars">
+  </a>
+  <a href="https://github.com/TaewoooPark/PAIDEIA">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/PAIDEIA">
+    <img src="https://img.shields.io/github/languages/top/TaewoooPark/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia top language">
   </a>
 </p>
 
