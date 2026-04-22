@@ -84,6 +84,20 @@
   </a>
 </p>
 
+**[Paideia — Codex edition](https://github.com/TaewoooPark/PAIDEIA-codex)** &nbsp;·&nbsp; The same tool as [Paideia](https://github.com/TaewoooPark/PAIDEIA), ported to OpenAI Codex CLI the same day Anthropic removed Claude Code from the Pro tier (2026-04-21). Same on-disk layout, same license, same markdown artifacts — shipped as an immediate response so readers without Max or the API could keep running the plugin. Pick whichever agentic CLI you already pay for.
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
+    <img src="https://img.shields.io/github/stars/TaewoooPark/PAIDEIA-codex?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia-codex stars">
+  </a>
+  <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
+    <img src="https://img.shields.io/github/languages/top/TaewoooPark/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex top language">
+  </a>
+</p>
+
 ---
 
 ## Claude-code Usage (Last 60 Days)
