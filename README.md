@@ -84,7 +84,7 @@
   </a>
 </p>
 
-**[Paideia — Codex edition](https://github.com/TaewoooPark/PAIDEIA-codex)** &nbsp;·&nbsp; The same tool as [Paideia](https://github.com/TaewoooPark/PAIDEIA), ported to OpenAI Codex CLI the same day Anthropic removed Claude Code from the Pro tier (2026-04-21). Same on-disk layout, same license, same markdown artifacts — shipped as an immediate response so readers without Max or the API could keep running the plugin. Pick whichever agentic CLI you already pay for.
+**[Paideia — Codex edition](https://github.com/TaewoooPark/PAIDEIA-codex)** &nbsp;·&nbsp; The same tool as [Paideia](https://github.com/TaewoooPark/PAIDEIA), ported to OpenAI Codex CLI on 2026-04-21 amid scattered reports that Claude Code had been revoked from the Pro tier. Anthropic later clarified this was only a limited test for some new users, not a general restriction — but the port was built that same day and stands on its own as a CLI-agnostic alternative. Same on-disk layout, same license, same markdown artifacts. Pick whichever agentic CLI you already pay for.
 
 <p align="center">
   <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
