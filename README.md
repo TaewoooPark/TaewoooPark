@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <a href="https://taewoopark.com"><strong>taewoopark.com</strong></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/-KAIST-000000?style=flat-square&labelColor=000000" alt="KAIST">
   <img src="https://img.shields.io/badge/-Physics_%26_Math-000000?style=flat-square&labelColor=000000" alt="Physics & Math">
   <img src="https://img.shields.io/badge/-Spintronics-000000?style=flat-square&labelColor=000000" alt="Spintronics">
@@ -22,6 +26,7 @@
   <a href="https://www.linkedin.com/in/taewoo-park-427a05352"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.instagram.com/t.wo0_x/"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
   <a href="https://www.instagram.com/hustlyarchiv.kr/"><img src="https://img.shields.io/badge/-HUSTLY_ARCHIV-8E44AD?style=for-the-badge&logo=instagram&logoColor=white" alt="HUSTLY ARCHIV"></a>
+  <a href="https://taewoopark.com"><img src="https://img.shields.io/badge/-taewoopark.com-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Personal site"></a>
   <a href="mailto:ptw151125@kaist.ac.kr"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
@@ -55,6 +60,20 @@
 ---
 
 ## Featured Projects
+
+**[taewoopark.com](https://taewoopark.com)** &nbsp;·&nbsp; A nine-section personal site — hero, about, research, projects, ventures, archive, writing, contact — treated as one continuous editorial composition rather than a CV template, where each page has its own typographic system. Built without a build step: React + JSX served through `babel-standalone`, so a `git push` *is* the deploy. Pages aren't generic blocks — the research page runs a cursor-driven spin lattice, projects has a Mark Lombardi-style mindmap, and the archive serves a 37 MB local media folder rather than a CDN. EN/KR bilingual; hover-only interactions are gated for touch devices via a `window.__hasHover` flag. Hosted on Vercel.
+
+<p align="center">
+  <a href="https://taewoopark.com">
+    <img src="https://img.shields.io/badge/-Live_at_taewoopark.com-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live site">
+  </a>
+  <a href="https://taewoopark.com">
+    <img src="https://img.shields.io/badge/-React-000000?style=for-the-badge&logo=react&logoColor=white&labelColor=000000" alt="React">
+  </a>
+  <a href="https://taewoopark.com">
+    <img src="https://img.shields.io/badge/-JSX_via_babel--standalone-000000?style=for-the-badge&logo=babel&logoColor=white&labelColor=000000" alt="JSX via babel-standalone">
+  </a>
+</p>
 
 **[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** &nbsp;·&nbsp; Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
 
