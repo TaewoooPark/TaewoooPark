@@ -26,6 +26,7 @@
   <a href="https://www.linkedin.com/in/taewoo-park-427a05352"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.instagram.com/t.wo0_x/"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
   <a href="https://www.instagram.com/hustlyarchiv.kr/"><img src="https://img.shields.io/badge/-HUSTLY_ARCHIV-8E44AD?style=for-the-badge&logo=instagram&logoColor=white" alt="HUSTLY ARCHIV"></a>
+  <a href="https://open.kakao.com/o/pfQMgHsi"><img src="https://img.shields.io/badge/-Trendchaser_Open_Chat-FEE500?style=for-the-badge&logo=kakaotalk&logoColor=black&labelColor=FEE500" alt="Trendchaser KakaoTalk Open Chat"></a>
   <a href="https://taewoopark.com"><img src="https://img.shields.io/badge/-taewoopark.com-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Personal site"></a>
   <a href="mailto:ptw151125@kaist.ac.kr"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
@@ -114,6 +115,23 @@
   </a>
   <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
     <img src="https://img.shields.io/github/languages/top/TaewoooPark/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex top language">
+  </a>
+</p>
+
+**[Trendchaser](https://github.com/TaewoooPark/Trendchaser)** &nbsp;·&nbsp; A prism for the daily AI/dev signal stream. Sixteen sources — HuggingFace papers, GitHub trending, lab blogs, arxiv, curator feeds — are fetched, deduplicated across a 14-day rolling window, scored against a curation profile, and converged into three short news-tone briefs a day (KST 10:00 / 15:00 / 22:00). Delivered to a public KakaoTalk open chat (anonymous join allowed) and Telegram. The pipeline runs in Claude Code Routines on the cloud; the source repository is private, this docs repo is public.
+
+<p align="center">
+  <a href="https://open.kakao.com/o/pfQMgHsi">
+    <img src="https://img.shields.io/badge/-Join_Open_Chat-FEE500?style=for-the-badge&logo=kakaotalk&logoColor=black&labelColor=FEE500" alt="Join KakaoTalk open chat">
+  </a>
+  <a href="https://github.com/TaewoooPark/Trendchaser">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/Trendchaser?style=for-the-badge&labelColor=000000&color=333333" alt="Trendchaser last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/Trendchaser">
+    <img src="https://img.shields.io/badge/-3_briefs%2Fday-000000?style=for-the-badge&labelColor=000000&color=333333" alt="3 briefs per day">
+  </a>
+  <a href="https://github.com/TaewoooPark/Trendchaser">
+    <img src="https://img.shields.io/badge/-status_live-000000?style=for-the-badge&labelColor=000000&color=22c55e" alt="Status live">
   </a>
 </p>
 
