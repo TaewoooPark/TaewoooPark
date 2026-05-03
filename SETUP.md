@@ -84,11 +84,11 @@ rm           ~/Library/LaunchAgents/com.me.ccusage-upload.plist
 
 ## Schedule reference
 
-| When                 | Who runs it             | What happens                          |
-| -------------------- | ----------------------- | ------------------------------------- |
-| 00:00, 12:00 KST     | launchd on your Mac     | ccusage → Gist                        |
-| 03:05, 15:05 UTC     | GitHub Actions cron     | Gist → SVG → commit                   |
-| any time             | Actions → Run workflow  | manual refresh (uses latest Gist)     |
+| When                              | Who runs it             | What happens                          |
+| --------------------------------- | ----------------------- | ------------------------------------- |
+| every 4 h (00/04/08/12/16/20 KST) | launchd on your Mac     | ccusage → Gist                        |
+| 5 min later (UTC 03/07/11/15/19/23 :05) | GitHub Actions cron | Gist → SVG → commit                   |
+| any time                          | Actions → Run workflow  | manual refresh (uses latest Gist)     |
 
 GitHub cron can drift by several minutes under load; that's fine.
 The `concurrency` block in the workflow prevents overlapping runs.
