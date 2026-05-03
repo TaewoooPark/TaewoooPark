@@ -1,7 +1,8 @@
-# Claude Code Usage Widget — Setup
+# Claude Code & Codex Usage Widget — Setup
 
 End-to-end wiring so that `assets/claude-usage.svg` refreshes twice a day
-without you touching anything.
+without you touching anything. Per-day token totals from `ccusage` (Claude)
+and `@ccusage/codex` are summed before upload.
 
 ## Pipeline
 

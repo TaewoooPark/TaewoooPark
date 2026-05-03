@@ -1,4 +1,4 @@
-name: Update Claude Code usage SVG
+name: Update Claude Code & Codex usage SVG
 
 on:
   schedule:
@@ -53,5 +53,5 @@ jobs:
             echo "no change"
             exit 0
           fi
-          git commit -m "chore: refresh Claude Code usage SVG"
+          git commit -m "chore: refresh Claude Code & Codex usage SVG"
           git push
