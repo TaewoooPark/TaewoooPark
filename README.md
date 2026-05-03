@@ -90,6 +90,20 @@
   </a>
 </p>
 
+**[emotype](https://github.com/TaewoooPark/emotype)** &nbsp;·&nbsp; Real-time Korean subtitles whose typography carries the speaker's affect. A frameless PyQt5 overlay on macOS reads face and voice, decides which of eight emotions is happening *right now*, and types the subtitle in a form that carries that emotion — anger shakes, sadness slumps, joy bounces. Affect is represented three ways at once (Ekman 8 + Russell valence/arousal + scalar intensity); one utterance gets one design and holds it through the breath. Built on Apple MLX Whisper, HSEmotion ENet-B0 ONNX, MediaPipe BlazeFace, and streaming Silero VAD — fully on-device by default, with opt-in Google STT v2 / OpenAI fallbacks.
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark/emotype">
+    <img src="https://img.shields.io/github/stars/TaewoooPark/emotype?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="emotype stars">
+  </a>
+  <a href="https://github.com/TaewoooPark/emotype">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/emotype?style=for-the-badge&labelColor=000000&color=333333" alt="emotype last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/emotype">
+    <img src="https://img.shields.io/github/languages/top/TaewoooPark/emotype?style=for-the-badge&labelColor=000000&color=333333" alt="emotype top language">
+  </a>
+</p>
+
 **[Paideia](https://github.com/TaewoooPark/PAIDEIA)** &nbsp;·&nbsp; A Claude Code plugin that turns raw course materials into a permanent, editable, per-course study graph. Solution patterns are extracted from the user's own solutions, drill priority is weighted by the professor's homework emphasis, and handwritten answers are OCR'd via Claude native vision — with optional local Qwen3-VL or Tesseract — then strategy-graded into an append-only weakness report. Every artifact is plain markdown the user can edit. Built with Python, the Claude Code plugin API, and Ollama.
 
 <p align="center">
