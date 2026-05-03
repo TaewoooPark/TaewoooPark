@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #
-# Run ccusage (Claude) + @ccusage/codex (Codex), merge per-day token totals,
-# and upload the combined snapshot to a private Gist. Invoked manually or
-# by launchd twice a day.
+# Run ccusage --json and upload the result to a private Gist.
+# Invoked manually or by launchd twice a day.
 #
 # Required env:
 #   CCUSAGE_GIST_ID   ID of the private Gist that holds usage.json
@@ -29,42 +28,9 @@ TMPDIR_RUN="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR_RUN"' EXIT
 
 OUT="$TMPDIR_RUN/usage.json"
-CLAUDE_RAW="$TMPDIR_RUN/claude.json"
-CODEX_RAW="$TMPDIR_RUN/codex.json"
 
-log "running ccusage (claude)"
-npx --yes ccusage@latest --json > "$CLAUDE_RAW"
-
-log "running ccusage codex"
-if ! npx --yes @ccusage/codex@latest --json > "$CODEX_RAW" 2>/dev/null; then
-  log "codex usage unavailable; treating as zero"
-  echo '{"daily":[],"totals":{"totalTokens":0}}' > "$CODEX_RAW"
-fi
-
-log "merging claude + codex daily totals"
-python3 - "$CLAUDE_RAW" "$CODEX_RAW" "$OUT" <<'PY'
-import json, sys
-from collections import defaultdict
-
-claude_p, codex_p, out_p = sys.argv[1:4]
-
-merged = defaultdict(int)
-for p in (claude_p, codex_p):
-    with open(p) as f:
-        d = json.load(f)
-    for row in d.get("daily", []):
-        date = row.get("date")
-        if not date:
-            continue
-        merged[date] += int(row.get("totalTokens", 0))
-
-daily = [{"date": d, "totalTokens": t} for d, t in sorted(merged.items())]
-total = sum(r["totalTokens"] for r in daily)
-
-with open(out_p, "w") as f:
-    json.dump({"daily": daily, "totals": {"totalTokens": total}}, f)
-print(f"merged {len(daily)} days, {total:,} tokens")
-PY
+log "running ccusage"
+npx --yes ccusage@latest --json > "$OUT"
 
 log "validating JSON"
 python3 - "$OUT" <<'PY'
