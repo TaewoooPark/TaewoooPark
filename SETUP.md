@@ -1,51 +1,57 @@
-# Claude Code Usage Widget — Setup
+# Claude Code & Codex Usage Widgets — Setup
 
-End-to-end wiring so that `assets/claude-usage.svg` refreshes twice a day
-without you touching anything.
+End-to-end wiring so that `assets/claude-usage.svg` and `assets/codex-usage.svg`
+refresh every 4 hours without you touching anything.
 
 ## Pipeline
 
 ```
-┌─ your Mac (launchd, 00:00 / 12:00 KST) ─┐       ┌── GitHub ─────────────────┐
-│  ccusage --json  →  upload-usage.sh     │  ──►  │  private Gist (usage.json)│
-└─────────────────────────────────────────┘       │              │            │
-                                                  │              ▼            │
-                                                  │  Actions (03:05/15:05 UTC)│
-                                                  │  generate_svg.py          │
-                                                  │  commits claude-usage.svg │
-                                                  └───────────────────────────┘
+┌─ your Mac (launchd, every 4 h KST) ─────┐       ┌── GitHub ─────────────────────────────┐
+│  ccusage --json         → upload-usage.sh ──►  │  private Gist (usage.json)            │
+│  @ccusage/codex --json  → upload-usage.sh ──►  │  private Gist (usage-codex.json)      │
+└─────────────────────────────────────────┘       │                  │                    │
+                                                  │                  ▼                    │
+                                                  │  Actions (every 4 h, +5 min)          │
+                                                  │  generate_svg.py × 2                  │
+                                                  │  commits claude-usage.svg, codex-...  │
+                                                  └───────────────────────────────────────┘
 ```
 
 ## One-time setup
 
-### 1. Create a private Gist
+### 1. Create two private Gists
 
 ```bash
 # anything non-empty as placeholder — will be overwritten immediately
 echo '{}' > /tmp/usage.json
-gh gist create --desc "ccusage daily snapshot" /tmp/usage.json
-# copy the hash at the end of the printed URL → this is GIST_ID
+echo '{}' > /tmp/usage-codex.json
+
+gh gist create --desc "ccusage daily snapshot"        /tmp/usage.json
+gh gist create --desc "@ccusage/codex daily snapshot" /tmp/usage-codex.json
+# copy each hash at the end of the printed URL → GIST_ID and CODEX_GIST_ID
 ```
 
-### 2. Add the GIST_ID repo secret
+### 2. Add the repo secrets
 
 Secret (unlisted) Gists are readable via the public API without auth, so the
-Actions workflow needs only `GIST_ID` — no PAT.
+Actions workflow needs only the IDs — no PAT.
 
 ```bash
-gh secret set GIST_ID --body "<hash from step 1>" -R TaewoooPark/TaewoooPark
+gh secret set GIST_ID       --body "<hash from claude gist>" -R TaewoooPark/TaewoooPark
+gh secret set CODEX_GIST_ID --body "<hash from codex gist>"  -R TaewoooPark/TaewoooPark
 ```
 
 Or via UI: repo → Settings → Secrets and variables → Actions → New repository secret.
 
-### 3. Prime the Gist (first manual run)
+### 3. Prime the Gists (first manual run)
 
 ```bash
-export CCUSAGE_GIST_ID=<hash from step 1>
+export CCUSAGE_GIST_ID=<hash from claude gist>
+export CODEX_GIST_ID=<hash from codex gist>
 scripts/upload-usage.sh
 ```
 
-Verify the Gist now contains a populated `usage.json`.
+Verify both Gists now contain populated JSON.
 
 ### 4. Trigger Actions once manually
 
@@ -54,13 +60,13 @@ gh workflow run update-usage-svg.yml -R TaewoooPark/TaewoooPark
 gh run list --workflow update-usage-svg.yml -R TaewoooPark/TaewoooPark -L 1
 ```
 
-Confirm it commits `assets/claude-usage.svg`.
+Confirm it commits `assets/claude-usage.svg` and `assets/codex-usage.svg`.
 
 ### 5. Install the launchd agent
 
 ```bash
 # a) edit the plist: set the absolute path to upload-usage.sh on your machine
-#    and replace REPLACE_WITH_GIST_ID with your GIST_ID
+#    and replace REPLACE_WITH_CCUSAGE_GIST_ID / REPLACE_WITH_CODEX_GIST_ID
 $EDITOR launchd/com.me.ccusage-upload.plist
 
 # b) install
@@ -86,16 +92,16 @@ rm           ~/Library/LaunchAgents/com.me.ccusage-upload.plist
 
 | When                              | Who runs it             | What happens                          |
 | --------------------------------- | ----------------------- | ------------------------------------- |
-| every 4 h (00/04/08/12/16/20 KST) | launchd on your Mac     | ccusage → Gist                        |
-| 5 min later (UTC 03/07/11/15/19/23 :05) | GitHub Actions cron | Gist → SVG → commit                   |
-| any time                          | Actions → Run workflow  | manual refresh (uses latest Gist)     |
+| every 4 h (00/04/08/12/16/20 KST) | launchd on your Mac     | ccusage + codex → Gists               |
+| 5 min later (UTC 03/07/11/15/19/23 :05) | GitHub Actions cron | Gists → SVGs → commit                 |
+| any time                          | Actions → Run workflow  | manual refresh (uses latest Gists)    |
 
 GitHub cron can drift by several minutes under load; that's fine.
 The `concurrency` block in the workflow prevents overlapping runs.
 
 ## Troubleshooting
 
-- **Actions fails on `curl gists/...`**: GIST_ID is wrong, or the Gist was
+- **Actions fails on `curl gists/...`**: a GIST_ID is wrong, or the Gist was
   deleted. Re-create and update the secret.
 - **launchd silently not firing**: `log show --predicate 'subsystem == "com.apple.xpc.launchd"' --last 1h | grep ccusage`.
 - **Mac was asleep at 00:00**: launchd will fire as soon as the Mac wakes

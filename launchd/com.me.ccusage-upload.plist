@@ -8,7 +8,7 @@
   <!--
     Runs upload-usage.sh every 4 hours (00, 04, 08, 12, 16, 20 KST).
     Edit the absolute path below to match your checkout location,
-    and replace REPLACE_WITH_GIST_ID with the Gist ID.
+    and replace REPLACE_WITH_*_GIST_ID with each Gist ID.
   -->
 
   <key>ProgramArguments</key>
@@ -21,7 +21,9 @@
   <key>EnvironmentVariables</key>
   <dict>
     <key>CCUSAGE_GIST_ID</key>
-    <string>REPLACE_WITH_GIST_ID</string>
+    <string>REPLACE_WITH_CCUSAGE_GIST_ID</string>
+    <key>CODEX_GIST_ID</key>
+    <string>REPLACE_WITH_CODEX_GIST_ID</string>
     <key>PATH</key>
     <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
   </dict>

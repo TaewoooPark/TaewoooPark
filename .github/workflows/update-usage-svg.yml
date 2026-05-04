@@ -1,4 +1,4 @@
-name: Update Claude Code usage SVG
+name: Update Claude Code & Codex usage SVGs
 
 on:
   schedule:
@@ -24,34 +24,43 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch usage.json from Gist
+      - name: Fetch usage JSON from Gists
         env:
-          GIST_ID: ${{ secrets.GIST_ID }}
+          CCUSAGE_GIST_ID: ${{ secrets.GIST_ID }}
+          CODEX_GIST_ID: ${{ secrets.CODEX_GIST_ID }}
         run: |
           set -euo pipefail
           mkdir -p scripts
-          # Secret gists are readable via the API without auth, so no PAT is needed.
-          curl -fsSL -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/gists/$GIST_ID" \
-            | python3 -c 'import json,sys; d=json.load(sys.stdin); sys.stdout.write(d["files"]["usage.json"]["content"])' \
-            > scripts/usage.json
-          test -s scripts/usage.json
-          python3 -c "import json; d=json.load(open('scripts/usage.json')); print(f\"daily={len(d['daily'])}, tokens={d['totals']['totalTokens']:,}\")"
 
-      - name: Render SVG
+          fetch_gist() {
+            local gist_id="$1" filename="$2" out="$3"
+            # Secret gists are readable via the API without auth, so no PAT is needed.
+            curl -fsSL -H "Accept: application/vnd.github+json" \
+                 "https://api.github.com/gists/$gist_id" \
+              | python3 -c "import json,sys; d=json.load(sys.stdin); sys.stdout.write(d['files']['$filename']['content'])" \
+              > "$out"
+            test -s "$out"
+            python3 -c "import json; d=json.load(open('$out')); print(f\"$filename: daily={len(d['daily'])}, tokens={d['totals']['totalTokens']:,}\")"
+          }
+
+          fetch_gist "$CCUSAGE_GIST_ID" "usage.json"       scripts/usage.json
+          fetch_gist "$CODEX_GIST_ID"   "usage-codex.json" scripts/usage-codex.json
+
+      - name: Render SVGs
         run: |
           mkdir -p assets
-          python scripts/generate_svg.py scripts/usage.json assets/claude-usage.svg
+          python scripts/generate_svg.py scripts/usage.json       assets/claude-usage.svg
+          python scripts/generate_svg.py scripts/usage-codex.json assets/codex-usage.svg
 
       - name: Commit if changed
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/claude-usage.svg
+          git add assets/claude-usage.svg assets/codex-usage.svg
           if git diff --cached --quiet; then
             echo "no change"
             exit 0
           fi
-          git commit -m "chore: refresh Claude Code usage SVG"
+          git commit -m "chore: refresh Claude Code & Codex usage SVGs"
           git push

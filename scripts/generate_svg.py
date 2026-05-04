@@ -83,17 +83,29 @@ def active_day_count(daily: list[dict]) -> int:
     return len([d for d in daily if d.get("totalTokens", 0) > 0])
 
 
+_DATE_FORMATS = ("%Y-%m-%d", "%b %d, %Y")
+
+
+def parse_date(s: str) -> datetime:
+    for fmt in _DATE_FORMATS:
+        try:
+            return datetime.strptime(s, fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"unrecognized date format: {s!r}")
+
+
 def window_filter(daily: list[dict], window_days: int) -> list[dict]:
     """Keep the most recent `window_days` active-day entries."""
     if not daily:
         return []
-    return sorted(daily, key=lambda d: d["date"])[-window_days:]
+    return sorted(daily, key=lambda d: parse_date(d["date"]))[-window_days:]
 
 
 def cumulative_series(daily: list[dict]) -> list[tuple[str, int]]:
     cum = 0
     out: list[tuple[str, int]] = []
-    for d in sorted(daily, key=lambda x: x["date"]):
+    for d in sorted(daily, key=lambda x: parse_date(x["date"])):
         cum += int(d.get("totalTokens", 0))
         out.append((d["date"], cum))
     return out
