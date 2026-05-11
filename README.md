@@ -146,6 +146,20 @@
   </a>
 </p>
 
+**[CORETEX](https://github.com/TaewoooPark/Coretex)** &nbsp;·&nbsp; A visual prototype for traceable collaborative documents. Documents, chats, versions, decisions, and local file assets become Traceable Work Nodes inside a directed decision graph, so a team can inspect where a final output came from and which drafts, messages, files, and discarded alternatives shaped it. The demo includes a React Flow workspace, node inspector, TipTap document versions, scoped chat, message-to-node promotion, fallback `#tag` / `@node-title` extraction, local file import into `ASSET` nodes, time travel, and a structured archive report. Built with Next.js, React, TypeScript, Tailwind CSS, Zustand, TanStack Query, TipTap, and Prisma schema/migrations.
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark/Coretex">
+    <img src="https://img.shields.io/github/stars/TaewoooPark/Coretex?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="CORETEX stars">
+  </a>
+  <a href="https://github.com/TaewoooPark/Coretex">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/Coretex?style=for-the-badge&labelColor=000000&color=333333" alt="CORETEX last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/Coretex">
+    <img src="https://img.shields.io/github/languages/top/TaewoooPark/Coretex?style=for-the-badge&labelColor=000000&color=333333" alt="CORETEX top language">
+  </a>
+</p>
+
 ---
 
 ## Claude Code & Codex Usage (Last 60 Days)
