@@ -27,7 +27,7 @@ RP_Y = 50                  # chart top
 RP_W = 540                 # chart width
 RP_H = 210                 # chart height
 
-WINDOW_DAYS = 60           # rolling window anchored at latest data point
+WINDOW_DAYS = 30           # rolling one-month window anchored at latest data point
 
 FRAMES = 36                # count-up keyframes
 COUNT_DUR = 1.6            # count-up animation duration (s)

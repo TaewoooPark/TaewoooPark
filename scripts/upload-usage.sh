@@ -34,6 +34,7 @@ p = sys.argv[1]
 d = json.load(open(p))
 assert isinstance(d, dict), "root must be object"
 assert "daily" in d and isinstance(d["daily"], list), "missing daily[]"
+assert all("date" in e or "period" in e for e in d["daily"]), "daily entry missing date/period key"
 assert "totals" in d and "totalTokens" in d["totals"], "missing totals.totalTokens"
 print(f"ok: {len(d['daily'])} days, {d['totals']['totalTokens']:,} tokens")
 PY
