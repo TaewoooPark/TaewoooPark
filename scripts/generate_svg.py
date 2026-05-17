@@ -95,19 +95,33 @@ def parse_date(s: str) -> datetime:
     raise ValueError(f"unrecognized date format: {s!r}")
 
 
+def entry_date(d: dict) -> str:
+    """Date string for a daily entry.
+
+    ccusage renamed this field `date` -> `period`; @ccusage/codex still
+    emits `date`. Accept either so both feeds render.
+    """
+    s = d.get("date") or d.get("period")
+    if not s:
+        raise KeyError(
+            f"daily entry has neither 'date' nor 'period': {sorted(d)}"
+        )
+    return s
+
+
 def window_filter(daily: list[dict], window_days: int) -> list[dict]:
     """Keep the most recent `window_days` active-day entries."""
     if not daily:
         return []
-    return sorted(daily, key=lambda d: parse_date(d["date"]))[-window_days:]
+    return sorted(daily, key=lambda d: parse_date(entry_date(d)))[-window_days:]
 
 
 def cumulative_series(daily: list[dict]) -> list[tuple[str, int]]:
     cum = 0
     out: list[tuple[str, int]] = []
-    for d in sorted(daily, key=lambda x: parse_date(x["date"])):
+    for d in sorted(daily, key=lambda x: parse_date(entry_date(x))):
         cum += int(d.get("totalTokens", 0))
-        out.append((d["date"], cum))
+        out.append((entry_date(d), cum))
     return out
 
 
