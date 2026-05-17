@@ -162,14 +162,14 @@
 
 ---
 
-## Claude Code & Codex Usage (Last 60 Days)
+## Claude Code & Codex Usage (Last 30 Days)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/claude-usage.svg" alt="Claude Code usage — last 60 days">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/claude-usage.svg" alt="Claude Code usage — last 30 days">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/codex-usage.svg" alt="Codex usage — last 60 days">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/codex-usage.svg" alt="Codex usage — last 30 days">
 </p>
 
 ---
