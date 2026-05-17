@@ -110,10 +110,17 @@ def entry_date(d: dict) -> str:
 
 
 def window_filter(daily: list[dict], window_days: int) -> list[dict]:
-    """Keep the most recent `window_days` active-day entries."""
+    """Keep entries within the trailing `window_days` calendar days,
+    anchored at the latest data point.
+
+    Entry-count slicing would overshoot when usage has gaps, since the
+    feeds emit only days that had activity.
+    """
     if not daily:
         return []
-    return sorted(daily, key=lambda d: parse_date(entry_date(d)))[-window_days:]
+    ordered = sorted(daily, key=lambda d: parse_date(entry_date(d)))
+    cutoff = parse_date(entry_date(ordered[-1])) - timedelta(days=window_days - 1)
+    return [d for d in ordered if parse_date(entry_date(d)) >= cutoff]
 
 
 def cumulative_series(daily: list[dict]) -> list[tuple[str, int]]:
