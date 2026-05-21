@@ -76,6 +76,20 @@
   </a>
 </p>
 
+**[MagLab](https://github.com/TaewoooPark/MagLab)** &nbsp;·&nbsp; An AI for Science harness for magnetism and spintronics research. The LLM layer plans, routes, reviews, and drafts, while deterministic modules own the scientific work: material lookup, magnetic unit conversion, exchange-length and FMR formulae, simulation handoff, spintronic-effect fitting, journal-aware figures, SCPI safety checks, ELN notes, provenance, and manuscript communication. It is built as a real terminal program rather than a demo prompt, with a REPL, one-shot commands, bilingual manuals, screenshot-backed operating guides, and a PI/smolagents harness path for multi-agent research workflows. Built with Python, Typer, Rich, Pydantic, SciPy/lmfit, and provider adapters for Codex, Anthropic, OpenAI, Gemini, Qwen, Kimi, Grok, and local tools.
+
+<p align="center">
+  <a href="https://github.com/TaewoooPark/MagLab">
+    <img src="https://img.shields.io/github/stars/TaewoooPark/MagLab?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="MagLab stars">
+  </a>
+  <a href="https://github.com/TaewoooPark/MagLab">
+    <img src="https://img.shields.io/github/last-commit/TaewoooPark/MagLab?style=for-the-badge&labelColor=000000&color=333333" alt="MagLab last commit">
+  </a>
+  <a href="https://github.com/TaewoooPark/MagLab">
+    <img src="https://img.shields.io/github/languages/top/TaewoooPark/MagLab?style=for-the-badge&labelColor=000000&color=333333" alt="MagLab top language">
+  </a>
+</p>
+
 **[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** &nbsp;·&nbsp; Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
 
 <p align="center">
