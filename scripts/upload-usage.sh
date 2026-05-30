@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 #
-# Run ccusage and @ccusage/codex --json and upload each result to a private Gist.
+# Run ccusage JSON reports and upload the combined agent usage to a private Gist.
 # Invoked manually or by launchd every 4 hours.
 #
 # Required env:
-#   CCUSAGE_GIST_ID   ID of the private Gist that holds usage.json (Claude Code)
-#   CODEX_GIST_ID     ID of the private Gist that holds usage-codex.json (Codex)
+#   CCUSAGE_GIST_ID   ID of the private Gist that holds usage.json
 #
 # Depends on: npx (Node), gh CLI authenticated as the repo owner.
 
@@ -14,8 +13,6 @@ set -euo pipefail
 log() { printf '[ccusage-upload %s] %s\n' "$(date -u +%FT%TZ)" "$*"; }
 
 : "${CCUSAGE_GIST_ID:?error: CCUSAGE_GIST_ID is not set}"
-: "${CODEX_GIST_ID:?error: CODEX_GIST_ID is not set}"
-
 for bin in npx gh python3; do
   if ! command -v "$bin" >/dev/null 2>&1; then
     echo "error: $bin not found in PATH ($PATH)" >&2
@@ -41,12 +38,11 @@ PY
 }
 
 upload_one() {
-  local label="$1" cmd="$2" filename="$3" gist_id="$4"
+  local label="$1" filename="$2" gist_id="$3"
   local out="$TMPDIR_RUN/$filename"
 
   log "running $label"
-  # shellcheck disable=SC2086
-  npx --yes $cmd --json > "$out"
+  npx --yes ccusage@latest --timezone "${CCUSAGE_TIMEZONE:-Asia/Seoul}" --json > "$out"
 
   log "validating $label JSON"
   validate_json "$out"
@@ -55,7 +51,6 @@ upload_one() {
   gh gist edit "$gist_id" "$out"
 }
 
-upload_one "ccusage"        "ccusage@latest"         "usage.json"       "$CCUSAGE_GIST_ID"
-upload_one "@ccusage/codex" "@ccusage/codex@latest"  "usage-codex.json" "$CODEX_GIST_ID"
+upload_one "agent usage" "usage.json" "$CCUSAGE_GIST_ID"
 
 log "done"

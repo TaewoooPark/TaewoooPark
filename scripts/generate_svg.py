@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Render a Claude Code usage widget SVG from ccusage --json output.
+Render an agent usage widget SVG from ccusage --json output.
 
 Usage:
     python generate_svg.py <usage.json> <out.svg>
@@ -98,8 +98,8 @@ def parse_date(s: str) -> datetime:
 def entry_date(d: dict) -> str:
     """Date string for a daily entry.
 
-    ccusage renamed this field `date` -> `period`; @ccusage/codex still
-    emits `date`. Accept either so both feeds render.
+    ccusage has used both `date` and `period` across versions.
+    Accept either so older snapshots still render.
     """
     s = d.get("date") or d.get("period")
     if not s:
