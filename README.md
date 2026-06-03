@@ -104,31 +104,31 @@
   </a>
 </p>
 
-**[Paideia](https://github.com/TaewoooPark/PAIDEIA)** &nbsp;·&nbsp; A Claude Code plugin that turns raw course materials into a permanent, editable, per-course study graph. Solution patterns are extracted from the user's own solutions, drill priority is weighted by the professor's homework emphasis, and handwritten answers are OCR'd via Claude native vision — with optional local Qwen3-VL or Tesseract — then strategy-graded into an append-only weakness report. Every artifact is plain markdown the user can edit. Built with Python, the Claude Code plugin API, and Ollama.
+**[Paideia](https://github.com/OPTIMETA/PAIDEIA)** &nbsp;·&nbsp; A Claude Code plugin that turns raw course materials into a permanent, editable, per-course study graph. Solution patterns are extracted from the user's own solutions, drill priority is weighted by the professor's homework emphasis, and handwritten answers are OCR'd via Claude native vision — with optional local Qwen3-VL or Tesseract — then strategy-graded into an append-only weakness report. Every artifact is plain markdown the user can edit. Built with Python, the Claude Code plugin API, and Ollama.
 
 <p align="center">
-  <a href="https://github.com/TaewoooPark/PAIDEIA">
-    <img src="https://img.shields.io/github/stars/TaewoooPark/PAIDEIA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia stars">
+  <a href="https://github.com/OPTIMETA/PAIDEIA">
+    <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia stars">
   </a>
-  <a href="https://github.com/TaewoooPark/PAIDEIA">
-    <img src="https://img.shields.io/github/last-commit/TaewoooPark/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia last commit">
+  <a href="https://github.com/OPTIMETA/PAIDEIA">
+    <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia last commit">
   </a>
-  <a href="https://github.com/TaewoooPark/PAIDEIA">
-    <img src="https://img.shields.io/github/languages/top/TaewoooPark/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia top language">
+  <a href="https://github.com/OPTIMETA/PAIDEIA">
+    <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia top language">
   </a>
 </p>
 
-**[Paideia — Codex edition](https://github.com/TaewoooPark/PAIDEIA-codex)** &nbsp;·&nbsp; The same tool as [Paideia](https://github.com/TaewoooPark/PAIDEIA), ported to OpenAI Codex CLI on 2026-04-21 amid scattered reports that Claude Code had been revoked from the Pro tier. Anthropic later clarified this was only a limited test for some new users, not a general restriction — but the port was built that same day and stands on its own as a CLI-agnostic alternative. Same on-disk layout, same license, same markdown artifacts. Pick whichever agentic CLI you already pay for.
+**[Paideia — Codex edition](https://github.com/OPTIMETA/PAIDEIA-codex)** &nbsp;·&nbsp; The same tool as [Paideia](https://github.com/OPTIMETA/PAIDEIA), ported to OpenAI Codex CLI on 2026-04-21 amid scattered reports that Claude Code had been revoked from the Pro tier. Anthropic later clarified this was only a limited test for some new users, not a general restriction — but the port was built that same day and stands on its own as a CLI-agnostic alternative. Same on-disk layout, same license, same markdown artifacts. Pick whichever agentic CLI you already pay for.
 
 <p align="center">
-  <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
-    <img src="https://img.shields.io/github/stars/TaewoooPark/PAIDEIA-codex?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia-codex stars">
+  <a href="https://github.com/OPTIMETA/PAIDEIA-codex">
+    <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-codex?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia-codex stars">
   </a>
-  <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
-    <img src="https://img.shields.io/github/last-commit/TaewoooPark/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex last commit">
+  <a href="https://github.com/OPTIMETA/PAIDEIA-codex">
+    <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex last commit">
   </a>
-  <a href="https://github.com/TaewoooPark/PAIDEIA-codex">
-    <img src="https://img.shields.io/github/languages/top/TaewoooPark/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex top language">
+  <a href="https://github.com/OPTIMETA/PAIDEIA-codex">
+    <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex top language">
   </a>
 </p>
 
@@ -188,7 +188,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
-  <img src="https://img.shields.io/github/stars/TaewoooPark?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Stars">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/total-stars.json&style=for-the-badge&logo=github&logoColor=white" alt="Total stars (personal + OPTIMETA)">
   <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
