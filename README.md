@@ -132,6 +132,20 @@
   </a>
 </p>
 
+**[Exam Radar](https://github.com/OPTIMETA/PAIDEIA-Alt)** &nbsp;·&nbsp; An Alt plugin that turns a semester of lecture recordings into a 2D decision map of what to study and what to drop before the exam. Every course topic is placed by exam probability against your own confidence, so a single glance separates the high-yield material from the traps worth cutting — and the study load you save is quantified, not guessed. Professor emphasis is mined from the transcripts themselves and normalized across topics so one long-winded lecture can't skew the map, and any topic's decision can be handed straight to [Paideia](https://github.com/OPTIMETA/PAIDEIA) for deeper per-course work. OPTIMETA's second product. Built with React, Vite, Tailwind CSS, d3-force, and the Alt plugin SDK.
+
+<p align="center">
+  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt">
+    <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-Alt?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Exam Radar stars">
+  </a>
+  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt">
+    <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-Alt?style=for-the-badge&labelColor=000000&color=333333" alt="Exam Radar last commit">
+  </a>
+  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt">
+    <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-Alt?style=for-the-badge&labelColor=000000&color=333333" alt="Exam Radar top language">
+  </a>
+</p>
+
 **[Trendchaser](https://github.com/TaewoooPark/Trendchaser)** &nbsp;·&nbsp; A prism for the daily AI/dev signal stream. Sixteen sources — HuggingFace papers, GitHub trending, lab blogs, arxiv, curator feeds — are fetched, deduplicated across a 14-day rolling window, scored against a curation profile, and converged into three short news-tone briefs a day (KST 10:00 / 15:00 / 22:00). Delivered to a public KakaoTalk open chat (anonymous join allowed) and Telegram. The pipeline runs in Claude Code Routines on the cloud; the source repository is private, this docs repo is public.
 
 <p align="center">
