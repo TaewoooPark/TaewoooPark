@@ -38,17 +38,41 @@
 <p align="center">
   <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white&labelColor=000000" alt="Python">
   <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=white&labelColor=000000" alt="TypeScript">
+  <img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=white&labelColor=000000" alt="JavaScript">
+  <img src="https://img.shields.io/badge/-Shell-000000?style=flat-square&logo=gnubash&logoColor=white&labelColor=000000" alt="Shell">
+  <img src="https://img.shields.io/badge/-HTML5-000000?style=flat-square&logo=html5&logoColor=white&labelColor=000000" alt="HTML5">
+  <img src="https://img.shields.io/badge/-CSS3-000000?style=flat-square&logo=css3&logoColor=white&labelColor=000000" alt="CSS3">
+  <img src="https://img.shields.io/badge/-LaTeX-000000?style=flat-square&logo=latex&logoColor=white&labelColor=000000" alt="LaTeX">
   <img src="https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&logoColor=white&labelColor=000000" alt="React">
+  <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=000000" alt="Next.js">
   <img src="https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white&labelColor=000000" alt="Three.js">
+  <img src="https://img.shields.io/badge/-React_Three_Fiber-000000?style=flat-square&logo=threedotjs&logoColor=white&labelColor=000000" alt="React Three Fiber">
+  <img src="https://img.shields.io/badge/-D3.js-000000?style=flat-square&logo=d3dotjs&logoColor=white&labelColor=000000" alt="D3.js">
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-000000?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=000000" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/-Vite-000000?style=flat-square&logo=vite&logoColor=white&labelColor=000000" alt="Vite">
+  <img src="https://img.shields.io/badge/-Zustand-000000?style=flat-square&labelColor=000000" alt="Zustand">
   <img src="https://img.shields.io/badge/-PyQt5-000000?style=flat-square&logo=qt&logoColor=white&labelColor=000000" alt="PyQt5">
+  <img src="https://img.shields.io/badge/-Chrome_Extensions-000000?style=flat-square&logo=googlechrome&logoColor=white&labelColor=000000" alt="Chrome Extensions">
+  <img src="https://img.shields.io/badge/-MCP-000000?style=flat-square&labelColor=000000" alt="MCP">
+  <img src="https://img.shields.io/badge/-Claude_Code-000000?style=flat-square&logo=anthropic&logoColor=white&labelColor=000000" alt="Claude Code">
+  <img src="https://img.shields.io/badge/-Multi_Agent-000000?style=flat-square&labelColor=000000" alt="Multi-Agent">
+  <img src="https://img.shields.io/badge/-Knowledge_Graphs-000000?style=flat-square&labelColor=000000" alt="Knowledge Graphs">
   <img src="https://img.shields.io/badge/-Algorithms-000000?style=flat-square&labelColor=000000" alt="Algorithms">
   <img src="https://img.shields.io/badge/-Optimization-000000?style=flat-square&labelColor=000000" alt="Optimization">
   <img src="https://img.shields.io/badge/-RAG-000000?style=flat-square&labelColor=000000" alt="RAG">
+  <img src="https://img.shields.io/badge/-OpenAlex-000000?style=flat-square&labelColor=000000" alt="OpenAlex">
+  <img src="https://img.shields.io/badge/-arXiv-000000?style=flat-square&logo=arxiv&logoColor=white&labelColor=000000" alt="arXiv">
+  <img src="https://img.shields.io/badge/-PubMed-000000?style=flat-square&labelColor=000000" alt="PubMed">
+  <img src="https://img.shields.io/badge/-Semantic_Scholar-000000?style=flat-square&labelColor=000000" alt="Semantic Scholar">
+  <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white&labelColor=000000" alt="Ollama">
+  <img src="https://img.shields.io/badge/-Qwen3--VL-000000?style=flat-square&labelColor=000000" alt="Qwen3-VL">
+  <img src="https://img.shields.io/badge/-Tesseract_OCR-000000?style=flat-square&labelColor=000000" alt="Tesseract OCR">
+  <img src="https://img.shields.io/badge/-Whisper-000000?style=flat-square&labelColor=000000" alt="Whisper">
   <img src="https://img.shields.io/badge/-MATLAB-000000?style=flat-square&logo=mathworks&logoColor=white&labelColor=000000" alt="MATLAB">
   <img src="https://img.shields.io/badge/-NumPy-000000?style=flat-square&logo=numpy&logoColor=white&labelColor=000000" alt="NumPy">
   <img src="https://img.shields.io/badge/-mumax3-000000?style=flat-square&labelColor=000000" alt="mumax3">
   <img src="https://img.shields.io/badge/-LabVIEW-000000?style=flat-square&labelColor=000000" alt="LabVIEW">
-  <img src="https://img.shields.io/badge/-LaTeX-000000?style=flat-square&logo=latex&logoColor=white&labelColor=000000" alt="LaTeX">
+  <img src="https://img.shields.io/badge/-GLSL-000000?style=flat-square&logo=opengl&logoColor=white&labelColor=000000" alt="GLSL">
   <img src="https://img.shields.io/badge/-Obsidian-000000?style=flat-square&logo=obsidian&logoColor=white&labelColor=000000" alt="Obsidian">
   <img src="https://img.shields.io/badge/-PowerPoint-000000?style=flat-square&logo=microsoftpowerpoint&logoColor=white&labelColor=000000" alt="PowerPoint">
   <img src="https://img.shields.io/badge/-Figma-000000?style=flat-square&logo=figma&logoColor=white&labelColor=000000" alt="Figma">
