@@ -25,19 +25,34 @@ jobs:
           script: |
             const fs = require('fs');
             const USER = 'TaewoooPark';
-            // Repos owned elsewhere (e.g. the OPTIMETA org) to fold into the personal total.
-            const EXTRA = ['OPTIMETA/PAIDEIA', 'OPTIMETA/PAIDEIA-codex', 'OPTIMETA/PAIDEIA-Alt'];
+            const ORGS = ['OPTIMETA'];
 
             let total = 0;
-            // Personal public repos, forks excluded (matches the old ?affiliations=OWNER badge).
-            const owned = await github.paginate(github.rest.repos.listForUser, { username: USER, per_page: 100 });
-            for (const r of owned) if (!r.fork) total += r.stargazers_count;
+            let repoCount = 0;
 
-            // Fold in the explicitly listed external repos.
-            for (const full of EXTRA) {
-              const [owner, repo] = full.split('/');
-              const { data } = await github.rest.repos.get({ owner, repo });
-              total += data.stargazers_count;
+            const addRepos = (label, repos) => {
+              let subtotal = 0;
+              for (const repo of repos) {
+                subtotal += repo.stargazers_count;
+              }
+              repoCount += repos.length;
+              total += subtotal;
+              core.info(`${label}: ${repos.length} public repos, ${subtotal} stars`);
+            };
+
+            // Public repositories owned by the user. Forks are included because
+            // this badge is the all-repository star total, not the featured index.
+            const owned = await github.paginate(github.rest.repos.listForUser, { username: USER, per_page: 100 });
+            addRepos(USER, owned);
+
+            // Public repositories owned by OPTIMETA and any future orgs listed above.
+            for (const org of ORGS) {
+              const repos = await github.paginate(github.rest.repos.listForOrg, {
+                org,
+                type: 'public',
+                per_page: 100,
+              });
+              addRepos(org, repos);
             }
 
             const badge = {
@@ -49,7 +64,7 @@ jobs:
             };
             fs.mkdirSync('assets', { recursive: true });
             fs.writeFileSync('assets/total-stars.json', JSON.stringify(badge) + '\n');
-            core.info(`total stars = ${total}`);
+            core.info(`total stars = ${total} across ${repoCount} public repos`);
 
       - name: Commit if changed
         run: |

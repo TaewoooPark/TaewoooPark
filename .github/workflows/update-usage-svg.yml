@@ -32,8 +32,11 @@ jobs:
           mkdir -p scripts
 
           # Secret gists are readable via the API without auth, so no PAT is needed.
-          curl -fsSL -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/gists/$CCUSAGE_GIST_ID" \
+          # The timestamp avoids stale edge-cache reads immediately after launchd uploads.
+          curl -fsSL \
+               -H "Accept: application/vnd.github+json" \
+               -H "Cache-Control: no-cache" \
+               "https://api.github.com/gists/$CCUSAGE_GIST_ID?ts=$(date +%s)" \
             | python3 -c "import json,sys; d=json.load(sys.stdin); sys.stdout.write(d['files']['usage.json']['content'])" \
             > scripts/usage.json
           test -s scripts/usage.json

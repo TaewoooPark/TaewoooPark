@@ -7,7 +7,7 @@ without you touching anything.
 
 ```
 ┌─ your Mac (launchd, every 4 h KST) ─────┐       ┌── GitHub ─────────────────────────────┐
-│  ccusage@latest --json → upload-usage.sh ──►  │  private Gist (usage.json)            │
+│  ccusage --all --json → upload-usage.sh ──►   │  private Gist (usage.json)            │
 └─────────────────────────────────────────┘       │                  │                    │
                                                   │                  ▼                    │
                                                   │  Actions (every 4 h, +5 min)          │
@@ -82,6 +82,13 @@ To uninstall:
 launchctl unload ~/Library/LaunchAgents/com.me.ccusage-upload.plist
 rm           ~/Library/LaunchAgents/com.me.ccusage-upload.plist
 ```
+
+## Total Stars Badge
+
+`assets/total-stars.json` is refreshed by GitHub Actions once a day. It sums
+every public repository owned by `TaewoooPark` plus every public repository in
+the `OPTIMETA` organization. Forks are included here because the badge is an
+all-repository total; the Featured Projects table can still exclude forks.
 
 ## Schedule reference
 

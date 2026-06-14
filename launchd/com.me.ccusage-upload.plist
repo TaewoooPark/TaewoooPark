@@ -15,7 +15,7 @@
   <array>
     <string>/bin/bash</string>
     <string>-lc</string>
-    <string>/Users/taewoopark/github/overview/scripts/upload-usage.sh</string>
+    <string>/Users/taewoopark/github/TaewoooPark/scripts/upload-usage.sh</string>
   </array>
 
   <key>EnvironmentVariables</key>
@@ -23,7 +23,7 @@
     <key>CCUSAGE_GIST_ID</key>
     <string>REPLACE_WITH_CCUSAGE_GIST_ID</string>
     <key>PATH</key>
-    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <string>/Users/taewoopark/.nvm/versions/node/v24.13.0/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
   </dict>
 
   <key>StartCalendarInterval</key>
