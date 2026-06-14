@@ -169,7 +169,7 @@ Google Developers Group, KAIST chapter.
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/total-stars.json&style=for-the-badge&logo=github&logoColor=white" alt="Total stars (personal + OPTIMETA)">
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaewoooPark%2FTaewoooPark%2Fmain%2Fassets%2Ftotal-stars.json%3Fv%3D20260615-0550&style=for-the-badge&logo=github&logoColor=white&cacheSeconds=300" alt="Total stars (personal + OPTIMETA)">
   <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
@@ -186,5 +186,5 @@ Google Developers Group, KAIST chapter.
 ## Agent Usage (Last 30 Days)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/agent-usage.svg" alt="Agent usage — last 30 days">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/agent-usage.svg?v=20260615-0550" alt="Agent usage — last 30 days">
 </p>
