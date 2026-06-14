@@ -93,13 +93,13 @@ Public repositories are grouped by owner and role. Forks are excluded from this 
 | Type | Project | Summary | Badges | External links |
 |---|---|---|---|---|
 | Identity / Site | **[Profile README / taewoopark.com](https://github.com/TaewoooPark/TaewoooPark)** | Public profile, portfolio gateway, and GitHub metrics automation for the overview. | ![stars](https://img.shields.io/github/stars/TaewoooPark/TaewoooPark?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/TaewoooPark?style=flat-square&labelColor=000000&color=333333) ![site](https://img.shields.io/badge/site-live-000000?style=flat-square&logo=vercel&logoColor=white) | [Live site](https://taewoopark.com) |
-| AI Interface | **[NODEPROMPT](https://github.com/TaewoooPark/NODEPROMPT)** | Spatial prompt engineering through editable 3D concept graphs. | ![stars](https://img.shields.io/github/stars/TaewoooPark/NODEPROMPT?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/NODEPROMPT?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/NODEPROMPT?style=flat-square&labelColor=000000&color=333333) | - |
-| AI for Science | **[MagLab](https://github.com/TaewoooPark/MagLab)** | Spintronics research CLI for literature, simulation, fitting, figures, instruments, and provenance. | ![stars](https://img.shields.io/github/stars/TaewoooPark/MagLab?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/MagLab?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/MagLab?style=flat-square&labelColor=000000&color=333333) | - |
+| AI Interface | **[NODEPROMPT](https://github.com/TaewoooPark/NODEPROMPT)** | Spatial prompt engineering through editable 3D concept graphs. | ![stars](https://img.shields.io/github/stars/TaewoooPark/NODEPROMPT?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/NODEPROMPT?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/NODEPROMPT?style=flat-square&labelColor=000000&color=333333) | [Project page](https://taewoopark.com/projects/nodeprompt) |
+| AI for Science | **[MagLab](https://github.com/TaewoooPark/MagLab)** | Spintronics research CLI for literature, simulation, fitting, figures, instruments, and provenance. | ![stars](https://img.shields.io/github/stars/TaewoooPark/MagLab?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/MagLab?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/MagLab?style=flat-square&labelColor=000000&color=333333) | [Project page](https://taewoopark.com/#maglab) |
 | Research Agent | **[scholar-lab-radar](https://github.com/TaewoooPark/scholar-lab-radar)** | Claude Code skill that turns a PI or lab's papers into a temporal knowledge graph and grounded evolution report. | ![stars](https://img.shields.io/github/stars/TaewoooPark/scholar-lab-radar?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/scholar-lab-radar?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/scholar-lab-radar?style=flat-square&labelColor=000000&color=333333) | - |
 | Research Agent | **[scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch)** | Multi-source academic search skill across 20+ scholarly databases with deduplication and PDF retrieval. | ![stars](https://img.shields.io/github/stars/TaewoooPark/scholar-megasearch?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/scholar-megasearch?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/scholar-megasearch?style=flat-square&labelColor=000000&color=333333) | - |
-| Signal Product | **[Trendchaser](https://github.com/TaewoooPark/Trendchaser)** | Daily AI/dev signal briefs delivered to KakaoTalk from a curated source pipeline. | ![stars](https://img.shields.io/github/stars/TaewoooPark/Trendchaser?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/Trendchaser?style=flat-square&labelColor=000000&color=333333) ![live](https://img.shields.io/badge/status-live-22c55e?style=flat-square&labelColor=000000) | [Open chat](https://open.kakao.com/o/pfQMgHsi) |
-| Human-AI UX | **[emotype](https://github.com/TaewoooPark/emotype)** | Real-time Korean subtitles whose typography follows the speaker's affect. | ![stars](https://img.shields.io/github/stars/TaewoooPark/emotype?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/emotype?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/emotype?style=flat-square&labelColor=000000&color=333333) | - |
-| Knowledge Work | **[Coretex](https://github.com/TaewoooPark/Coretex)** | Traceable collaborative documents modeled as a decision graph of drafts, chats, versions, and assets. | ![stars](https://img.shields.io/github/stars/TaewoooPark/Coretex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/Coretex?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/Coretex?style=flat-square&labelColor=000000&color=333333) | - |
+| Signal Product | **[Trendchaser](https://github.com/TaewoooPark/Trendchaser)** | Daily AI/dev signal briefs delivered to KakaoTalk from a curated source pipeline. | ![stars](https://img.shields.io/github/stars/TaewoooPark/Trendchaser?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/Trendchaser?style=flat-square&labelColor=000000&color=333333) ![live](https://img.shields.io/badge/status-live-22c55e?style=flat-square&labelColor=000000) | [Live page](https://taewoopark.com/trendchaser) · [Open chat](https://open.kakao.com/o/pfQMgHsi) |
+| Human-AI UX | **[emotype](https://github.com/TaewoooPark/emotype)** | Real-time Korean subtitles whose typography follows the speaker's affect. | ![stars](https://img.shields.io/github/stars/TaewoooPark/emotype?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/emotype?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/emotype?style=flat-square&labelColor=000000&color=333333) | [Project page](https://taewoopark.com/projects/emotype) |
+| Knowledge Work | **[Coretex](https://github.com/TaewoooPark/Coretex)** | Traceable collaborative documents modeled as a decision graph of drafts, chats, versions, and assets. | ![stars](https://img.shields.io/github/stars/TaewoooPark/Coretex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/Coretex?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/Coretex?style=flat-square&labelColor=000000&color=333333) | [Project page](https://taewoopark.com/projects/coretex) |
 | Extension | **[claude-korean-translator](https://github.com/TaewoooPark/claude-korean-translator)** | BYOK Chrome extension for Korean-English translation on claude.ai. | ![stars](https://img.shields.io/github/stars/TaewoooPark/claude-korean-translator?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/claude-korean-translator?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/claude-korean-translator?style=flat-square&labelColor=000000&color=333333) | - |
 | Physics Tool | **[MOKE-Domain-Wall-Angle-Tracker](https://github.com/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker)** | MOKE V-wall angle extraction pipeline from videos to bias-grouped field-angle plots. | ![stars](https://img.shields.io/github/stars/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker?style=flat-square&labelColor=000000&color=333333) | - |
 | Agent Case Study | **[minecraft-26.1-cobblemon-ralph](https://github.com/TaewoooPark/minecraft-26.1-cobblemon-ralph)** | Cobblemon port investigation for Minecraft 26.1.x on M-chip Mac through a Ralph autonomous loop. | ![stars](https://img.shields.io/github/stars/TaewoooPark/minecraft-26.1-cobblemon-ralph?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/minecraft-26.1-cobblemon-ralph?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/minecraft-26.1-cobblemon-ralph?style=flat-square&labelColor=000000&color=333333) | - |
@@ -109,39 +109,11 @@ Public repositories are grouped by owner and role. Forks are excluded from this 
 | Type | Project | Summary | Badges | External links |
 |---|---|---|---|---|
 | Core Product | **[PAIDEIA](https://github.com/OPTIMETA/PAIDEIA)** | Claude Code plugin that turns course materials into a local, editable exam-readiness graph. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA?style=flat-square&labelColor=000000&color=333333) | [Project page](https://taewoopark.com/projects/paideia) |
-| Platform Edition | **[PAIDEIA-codex](https://github.com/OPTIMETA/PAIDEIA-codex)** | Codex edition of PAIDEIA with the same markdown-first study artifacts. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-codex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333) | - |
+| Platform Edition | **[PAIDEIA-codex](https://github.com/OPTIMETA/PAIDEIA-codex)** | Codex edition of PAIDEIA with the same markdown-first study artifacts. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-codex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333) | [Project page](https://taewoopark.com/projects/paideia-codex) |
 | Platform Edition | **[PAIDEIA-opencode](https://github.com/OPTIMETA/PAIDEIA-opencode)** | opencode edition of PAIDEIA for homework-density-weighted drills, OCR ingest, and strategy grading. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-opencode?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-opencode?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-opencode?style=flat-square&labelColor=000000&color=333333) | - |
 | Platform Edition | **[PAIDEIA-Hermes](https://github.com/OPTIMETA/PAIDEIA-Hermes)** | Hermes-agent port of PAIDEIA for local exam prep from personal course materials. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-Hermes?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-Hermes?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-Hermes?style=flat-square&labelColor=000000&color=333333) | - |
 | Companion Product | **[PAIDEIA-Alt / Exam Radar](https://github.com/OPTIMETA/PAIDEIA-Alt)** | Alt plugin that converts lecture recordings into an exam-priority decision map. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-Alt?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-Alt?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-Alt?style=flat-square&labelColor=000000&color=333333) | - |
 | MCP Infrastructure | **[PAIDEIA-mcp](https://github.com/OPTIMETA/PAIDEIA-mcp)** | Standalone local MCP server that lets Alt local models run the full PAIDEIA course-folder workflow and write durable markdown artifacts. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-mcp?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-mcp?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-mcp?style=flat-square&labelColor=000000&color=333333) | [v0.5.5 release](https://github.com/OPTIMETA/PAIDEIA-mcp/releases/tag/v0.5.5) |
-
----
-
-## Agent Usage (Last 30 Days)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/agent-usage.svg" alt="Agent usage — last 30 days">
-</p>
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/total-stars.json&style=for-the-badge&logo=github&logoColor=white" alt="Total stars (personal + OPTIMETA)">
-  <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true&background=0D1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="GitHub streak">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TaewoooPark&theme=github-compact&hide_border=true&bg_color=0D1117&color=ffffff&line=ffffff&point=ffffff&area=true" alt="Contribution activity graph">
-</p>
-
----
 
 ## About
 
@@ -189,4 +161,30 @@ Google Developers Group, KAIST chapter.
 
 <p align="center">
   <em>"Calculated steps toward a problem defined at the scale of civilization."</em>
+</p>
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/total-stars.json&style=for-the-badge&logo=github&logoColor=white" alt="Total stars (personal + OPTIMETA)">
+  <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=TaewoooPark&theme=dark&hide_border=true&background=0D1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="GitHub streak">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TaewoooPark&theme=github-compact&hide_border=true&bg_color=0D1117&color=ffffff&line=ffffff&point=ffffff&area=true" alt="Contribution activity graph">
+</p>
+
+---
+
+## Agent Usage (Last 30 Days)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/agent-usage.svg" alt="Agent usage — last 30 days">
 </p>
