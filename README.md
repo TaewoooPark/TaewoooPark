@@ -62,131 +62,32 @@
 
 ## Featured Projects
 
-**[taewoopark.com](https://taewoopark.com)** &nbsp;·&nbsp; A nine-section personal site — hero, about, research, projects, ventures, archive, writing, contact — treated as one continuous editorial composition rather than a CV template, where each page has its own typographic system. Built without a build step: React + JSX served through `babel-standalone`, so a `git push` *is* the deploy. Pages aren't generic blocks — the research page runs a cursor-driven spin lattice, projects has a Mark Lombardi-style mindmap, and the archive serves a 37 MB local media folder rather than a CDN. EN/KR bilingual; hover-only interactions are gated for touch devices via a `window.__hasHover` flag. Hosted on Vercel.
+Public repositories are grouped by owner and role. Forks are excluded from this index.
 
-<p align="center">
-  <a href="https://taewoopark.com">
-    <img src="https://img.shields.io/badge/-Live_at_taewoopark.com-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live site">
-  </a>
-  <a href="https://taewoopark.com">
-    <img src="https://img.shields.io/badge/-React-000000?style=for-the-badge&logo=react&logoColor=white&labelColor=000000" alt="React">
-  </a>
-  <a href="https://taewoopark.com">
-    <img src="https://img.shields.io/badge/-JSX_via_babel--standalone-000000?style=for-the-badge&logo=babel&logoColor=white&labelColor=000000" alt="JSX via babel-standalone">
-  </a>
-</p>
+### Personal Public Repositories
 
-**[MagLab](https://github.com/TaewoooPark/MagLab)** &nbsp;·&nbsp; An AI for Science harness for magnetism and spintronics research. The LLM layer plans, routes, reviews, and drafts, while deterministic modules own the scientific work: material lookup, magnetic unit conversion, exchange-length and FMR formulae, simulation handoff, spintronic-effect fitting, journal-aware figures, SCPI safety checks, ELN notes, provenance, and manuscript communication. It is built as a real terminal program rather than a demo prompt, with a REPL, one-shot commands, bilingual manuals, screenshot-backed operating guides, and a PI/smolagents harness path for multi-agent research workflows. Built with Python, Typer, Rich, Pydantic, SciPy/lmfit, and provider adapters for Codex, Anthropic, OpenAI, Gemini, Qwen, Kimi, Grok, and local tools.
+| Type | Project | Review | One-line summary | Badges | Links |
+|---|---|---|---|---|---|
+| Identity / Site | **Profile README / taewoopark.com** | Keep as the identity layer, not a product competing for feature space. | Central profile, portfolio gateway, and GitHub metrics automation for the public overview. | ![stars](https://img.shields.io/github/stars/TaewoooPark/TaewoooPark?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/TaewoooPark?style=flat-square&labelColor=000000&color=333333) ![site](https://img.shields.io/badge/site-live-000000?style=flat-square&logo=vercel&logoColor=white) | [Repo](https://github.com/TaewoooPark/TaewoooPark)<br>[Site](https://taewoopark.com) |
+| AI Interface | **NODEPROMPT** | Strongest visual hook; keep near the top for broad audiences. | Spatial prompt engineering through editable 3D concept graphs. | ![stars](https://img.shields.io/github/stars/TaewoooPark/NODEPROMPT?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/NODEPROMPT?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/NODEPROMPT?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/NODEPROMPT)<br>[Profile](https://github.com/TaewoooPark) |
+| AI for Science | **MagLab** | Best bridge between physics identity and agentic software. | Magnetism and spintronics research harness with literature, simulation, fitting, figures, instruments, and provenance in one CLI. | ![stars](https://img.shields.io/github/stars/TaewoooPark/MagLab?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/MagLab?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/MagLab?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/MagLab) |
+| Research Agent Tool | **scholar-megasearch** | High utility for researchers and strong fit with the Codex/Claude ecosystem. | Multi-source academic search skill that fans out across 20+ scholarly databases, deduplicates results, and retrieves PDFs. | ![stars](https://img.shields.io/github/stars/TaewoooPark/scholar-megasearch?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/scholar-megasearch?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/scholar-megasearch?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/scholar-megasearch)<br>[SKILL.md](https://github.com/TaewoooPark/scholar-megasearch/blob/main/SKILL.md) |
+| Signal Product | **Trendchaser** | Treat as a live service report rather than a source-code showcase. | Daily AI/dev signal briefs delivered to KakaoTalk from a curated source pipeline. | ![stars](https://img.shields.io/github/stars/TaewoooPark/Trendchaser?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/Trendchaser?style=flat-square&labelColor=000000&color=333333) ![live](https://img.shields.io/badge/status-live-22c55e?style=flat-square&labelColor=000000) | [Repo](https://github.com/TaewoooPark/Trendchaser)<br>[Open Chat](https://open.kakao.com/o/pfQMgHsi) |
+| Human-AI UX | **emotype** | Distinct concept; best framed as an expressive interface experiment. | Real-time Korean subtitles whose typography carries the speaker's affect. | ![stars](https://img.shields.io/github/stars/TaewoooPark/emotype?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/emotype?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/emotype?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/emotype) |
+| Knowledge Work Prototype | **Coretex** | Good concept demo; present as a prototype instead of a finished platform. | Traceable collaborative documents modeled as a decision graph of drafts, chats, versions, and assets. | ![stars](https://img.shields.io/github/stars/TaewoooPark/Coretex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/Coretex?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/Coretex?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/Coretex) |
+| Browser Extension | **claude-korean-translator** | Small but clear utility; belongs in the index, not the hero stack. | BYOK Chrome extension for Korean-English translation on claude.ai. | ![stars](https://img.shields.io/github/stars/TaewoooPark/claude-korean-translator?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/claude-korean-translator?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/claude-korean-translator?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/claude-korean-translator) |
+| Physics Tool | **MOKE-Domain-Wall-Angle-Tracker** | Niche research utility; valuable as evidence of real lab tooling. | MOKE V-wall angle extraction pipeline from videos to bias-grouped field-angle plots. | ![stars](https://img.shields.io/github/stars/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/MOKE-Domain-Wall-Angle-Tracker) |
+| Agent Case Study | **minecraft-26.1-cobblemon-ralph** | Best read as an autonomous coding case study, not a core product. | Cobblemon port investigation for Minecraft 26.1.x on M-chip Mac through a Ralph autonomous loop. | ![stars](https://img.shields.io/github/stars/TaewoooPark/minecraft-26.1-cobblemon-ralph?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/minecraft-26.1-cobblemon-ralph?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/TaewoooPark/minecraft-26.1-cobblemon-ralph?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/TaewoooPark/minecraft-26.1-cobblemon-ralph) |
 
-<p align="center">
-  <a href="https://github.com/TaewoooPark/MagLab">
-    <img src="https://img.shields.io/github/stars/TaewoooPark/MagLab?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="MagLab stars">
-  </a>
-  <a href="https://github.com/TaewoooPark/MagLab">
-    <img src="https://img.shields.io/github/last-commit/TaewoooPark/MagLab?style=for-the-badge&labelColor=000000&color=333333" alt="MagLab last commit">
-  </a>
-  <a href="https://github.com/TaewoooPark/MagLab">
-    <img src="https://img.shields.io/github/languages/top/TaewoooPark/MagLab?style=for-the-badge&labelColor=000000&color=333333" alt="MagLab top language">
-  </a>
-</p>
+### OPTIMETA Team Repositories
 
-**[NodePrompt](https://github.com/TaewoooPark/NODEPROMPT)** &nbsp;·&nbsp; Spatial prompt engineering through interactive 3D concept graphs. Decomposes LLM prompts into editable concept graphs rendered in a Mark Lombardi black-and-white aesthetic, then resynthesizes the edited graph back into a structured prompt. Built with React Three Fiber, TypeScript, GSAP, and the Claude API.
-
-<p align="center">
-  <a href="https://github.com/TaewoooPark/NODEPROMPT">
-    <img src="https://img.shields.io/github/stars/TaewoooPark/NODEPROMPT?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="NodePrompt stars">
-  </a>
-  <a href="https://github.com/TaewoooPark/NODEPROMPT">
-    <img src="https://img.shields.io/github/last-commit/TaewoooPark/NODEPROMPT?style=for-the-badge&labelColor=000000&color=333333" alt="NodePrompt last commit">
-  </a>
-  <a href="https://github.com/TaewoooPark/NODEPROMPT">
-    <img src="https://img.shields.io/github/languages/top/TaewoooPark/NODEPROMPT?style=for-the-badge&labelColor=000000&color=333333" alt="NodePrompt top language">
-  </a>
-</p>
-
-**[Paideia](https://github.com/OPTIMETA/PAIDEIA)** &nbsp;·&nbsp; A Claude Code plugin that turns raw course materials into a permanent, editable, per-course study graph. Solution patterns are extracted from the user's own solutions, drill priority is weighted by the professor's homework emphasis, and handwritten answers are OCR'd via Claude native vision — with optional local Qwen3-VL or Tesseract — then strategy-graded into an append-only weakness report. Every artifact is plain markdown the user can edit. Built with Python, the Claude Code plugin API, and Ollama.
-
-<p align="center">
-  <a href="https://github.com/OPTIMETA/PAIDEIA">
-    <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia stars">
-  </a>
-  <a href="https://github.com/OPTIMETA/PAIDEIA">
-    <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia last commit">
-  </a>
-  <a href="https://github.com/OPTIMETA/PAIDEIA">
-    <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia top language">
-  </a>
-</p>
-
-**[Paideia — Codex edition](https://github.com/OPTIMETA/PAIDEIA-codex)** &nbsp;·&nbsp; The same tool as [Paideia](https://github.com/OPTIMETA/PAIDEIA), ported to OpenAI Codex CLI on 2026-04-21 amid scattered reports that Claude Code had been revoked from the Pro tier. Anthropic later clarified this was only a limited test for some new users, not a general restriction — but the port was built that same day and stands on its own as a CLI-agnostic alternative. Same on-disk layout, same license, same markdown artifacts. Pick whichever agentic CLI you already pay for.
-
-<p align="center">
-  <a href="https://github.com/OPTIMETA/PAIDEIA-codex">
-    <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-codex?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Paideia-codex stars">
-  </a>
-  <a href="https://github.com/OPTIMETA/PAIDEIA-codex">
-    <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex last commit">
-  </a>
-  <a href="https://github.com/OPTIMETA/PAIDEIA-codex">
-    <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-codex?style=for-the-badge&labelColor=000000&color=333333" alt="Paideia-codex top language">
-  </a>
-</p>
-
-**[Exam Radar](https://github.com/OPTIMETA/PAIDEIA-Alt)** &nbsp;·&nbsp; An Alt plugin that turns a semester of lecture recordings into a 2D decision map of what to study and what to drop before the exam. Every course topic is placed by exam probability against your own confidence, so a single glance separates the high-yield material from the traps worth cutting — and the study load you save is quantified, not guessed. Professor emphasis is mined from the transcripts themselves and normalized across topics so one long-winded lecture can't skew the map, and any topic's decision can be handed straight to [Paideia](https://github.com/OPTIMETA/PAIDEIA) for deeper per-course work. OPTIMETA's second product. Built with React, Vite, Tailwind CSS, d3-force, and the Alt plugin SDK.
-
-<p align="center">
-  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt">
-    <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-Alt?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Exam Radar stars">
-  </a>
-  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt">
-    <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-Alt?style=for-the-badge&labelColor=000000&color=333333" alt="Exam Radar last commit">
-  </a>
-  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt">
-    <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-Alt?style=for-the-badge&labelColor=000000&color=333333" alt="Exam Radar top language">
-  </a>
-</p>
-
-**[Trendchaser](https://github.com/TaewoooPark/Trendchaser)** &nbsp;·&nbsp; A prism for the daily AI/dev signal stream. Sixteen sources — HuggingFace papers, GitHub trending, lab blogs, arxiv, curator feeds — are fetched, deduplicated across a 14-day rolling window, scored against a curation profile, and converged into three short news-tone briefs a day (KST 10:00 / 15:00 / 22:00). Delivered to a public KakaoTalk open chat (anonymous join allowed) and Telegram. The pipeline runs in Claude Code Routines on the cloud; the source repository is private, this docs repo is public.
-
-<p align="center">
-  <a href="https://open.kakao.com/o/pfQMgHsi">
-    <img src="https://img.shields.io/badge/-Join_Open_Chat-FEE500?style=for-the-badge&logo=kakaotalk&logoColor=FEE500&labelColor=000000&color=000000" alt="Join KakaoTalk open chat">
-  </a>
-  <a href="https://github.com/TaewoooPark/Trendchaser">
-    <img src="https://img.shields.io/badge/-3_briefs%2Fday-000000?style=for-the-badge&labelColor=000000&color=333333" alt="3 briefs per day">
-  </a>
-  <a href="https://github.com/TaewoooPark/Trendchaser">
-    <img src="https://img.shields.io/badge/-status_live-000000?style=for-the-badge&labelColor=000000&color=22c55e" alt="Status live">
-  </a>
-</p>
-
-**[emotype](https://github.com/TaewoooPark/emotype)** &nbsp;·&nbsp; Real-time Korean subtitles whose typography carries the speaker's affect. A frameless PyQt5 overlay on macOS reads face and voice, decides which of eight emotions is happening *right now*, and types the subtitle in a form that carries that emotion — anger shakes, sadness slumps, joy bounces. Affect is represented three ways at once (Ekman 8 + Russell valence/arousal + scalar intensity); one utterance gets one design and holds it through the breath. Built on Apple MLX Whisper, HSEmotion ENet-B0 ONNX, MediaPipe BlazeFace, and streaming Silero VAD — fully on-device by default, with opt-in Google STT v2 / OpenAI fallbacks.
-
-<p align="center">
-  <a href="https://github.com/TaewoooPark/emotype">
-    <img src="https://img.shields.io/github/stars/TaewoooPark/emotype?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="emotype stars">
-  </a>
-  <a href="https://github.com/TaewoooPark/emotype">
-    <img src="https://img.shields.io/github/last-commit/TaewoooPark/emotype?style=for-the-badge&labelColor=000000&color=333333" alt="emotype last commit">
-  </a>
-  <a href="https://github.com/TaewoooPark/emotype">
-    <img src="https://img.shields.io/github/languages/top/TaewoooPark/emotype?style=for-the-badge&labelColor=000000&color=333333" alt="emotype top language">
-  </a>
-</p>
-
-**[CORETEX](https://github.com/TaewoooPark/Coretex)** &nbsp;·&nbsp; A visual prototype for traceable collaborative documents. Documents, chats, versions, decisions, and local file assets become Traceable Work Nodes inside a directed decision graph, so a team can inspect where a final output came from and which drafts, messages, files, and discarded alternatives shaped it. The demo includes a React Flow workspace, node inspector, TipTap document versions, scoped chat, message-to-node promotion, fallback `#tag` / `@node-title` extraction, local file import into `ASSET` nodes, time travel, and a structured archive report. Built with Next.js, React, TypeScript, Tailwind CSS, Zustand, TanStack Query, TipTap, and Prisma schema/migrations.
-
-<p align="center">
-  <a href="https://github.com/TaewoooPark/Coretex">
-    <img src="https://img.shields.io/github/stars/TaewoooPark/Coretex?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="CORETEX stars">
-  </a>
-  <a href="https://github.com/TaewoooPark/Coretex">
-    <img src="https://img.shields.io/github/last-commit/TaewoooPark/Coretex?style=for-the-badge&labelColor=000000&color=333333" alt="CORETEX last commit">
-  </a>
-  <a href="https://github.com/TaewoooPark/Coretex">
-    <img src="https://img.shields.io/github/languages/top/TaewoooPark/Coretex?style=for-the-badge&labelColor=000000&color=333333" alt="CORETEX top language">
-  </a>
-</p>
+| Type | Project | Review | One-line summary | Badges | Links |
+|---|---|---|---|---|---|
+| Core Product | **PAIDEIA** | OPTIMETA flagship; this should carry the product narrative. | Claude Code plugin that turns course materials into a local, editable exam-readiness graph. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/OPTIMETA/PAIDEIA)<br>[Project page](https://taewoopark.com/projects/paideia) |
+| Platform Edition | **PAIDEIA-codex** | Keep as a serious edition, but visually subordinate to the flagship. | Codex edition of PAIDEIA with the same markdown-first study artifacts. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-codex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/OPTIMETA/PAIDEIA-codex) |
+| Platform Edition | **PAIDEIA-opencode** | Useful distribution surface; group with the PAIDEIA suite. | opencode edition of PAIDEIA for homework-density-weighted drills, OCR ingest, and strategy grading. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-opencode?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-opencode?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-opencode?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/OPTIMETA/PAIDEIA-opencode) |
+| Platform Edition | **PAIDEIA-Hermes** | Port story is clear; keep compact to avoid suite duplication. | Hermes-agent port of PAIDEIA for local exam prep from personal course materials. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-Hermes?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-Hermes?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-Hermes?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/OPTIMETA/PAIDEIA-Hermes) |
+| Companion Product | **PAIDEIA-Alt / Exam Radar** | Best positioned as the lecture-side companion to PAIDEIA. | Alt plugin that converts lecture recordings into an exam-priority decision map. | ![stars](https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-Alt?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-Alt?style=flat-square&labelColor=000000&color=333333) ![top language](https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-Alt?style=flat-square&labelColor=000000&color=333333) | [Repo](https://github.com/OPTIMETA/PAIDEIA-Alt)<br>[PAIDEIA](https://github.com/OPTIMETA/PAIDEIA) |
 
 ---
 
