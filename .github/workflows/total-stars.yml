@@ -62,8 +62,28 @@ jobs:
               color: '333333',
               labelColor: '000000',
             };
+            const badgePath = 'assets/total-stars.json';
+            const badgeJson = JSON.stringify(badge) + '\n';
+            const previousBadgeJson = fs.existsSync(badgePath) ? fs.readFileSync(badgePath, 'utf8') : '';
+            const badgeChanged = previousBadgeJson !== badgeJson;
+
             fs.mkdirSync('assets', { recursive: true });
-            fs.writeFileSync('assets/total-stars.json', JSON.stringify(badge) + '\n');
+            fs.writeFileSync(badgePath, badgeJson);
+
+            if (badgeChanged && fs.existsSync('README.md')) {
+              const cacheKey = new Date().toISOString()
+                .replace(/[-:]/g, '')
+                .replace(/\.\d{3}Z$/, 'Z');
+              const readme = fs.readFileSync('README.md', 'utf8');
+              const nextReadme = readme.replace(
+                /assets%2Ftotal-stars\.json%3Fv%3D[^&"]+/,
+                `assets%2Ftotal-stars.json%3Fv%3D${cacheKey}`,
+              );
+              if (nextReadme !== readme) {
+                fs.writeFileSync('README.md', nextReadme);
+                core.info(`updated README total-stars cache key to ${cacheKey}`);
+              }
+            }
             core.info(`total stars = ${total} across ${repoCount} public repos`);
 
       - name: Commit if changed
@@ -71,7 +91,7 @@ jobs:
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/total-stars.json
+          git add assets/total-stars.json README.md
           if git diff --cached --quiet; then
             echo "no change"
             exit 0
