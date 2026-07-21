@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/-KAIST-000000?style=flat-square&labelColor=000000" alt="KAIST">
   <img src="https://img.shields.io/badge/-Physics_%26_Math-000000?style=flat-square&labelColor=000000" alt="Physics & Math">
   <img src="https://img.shields.io/badge/-Spintronics-000000?style=flat-square&labelColor=000000" alt="Spintronics">
+  <img src="https://img.shields.io/badge/-Data_Scientist-000000?style=flat-square&labelColor=000000" alt="Data Scientist">
   <img src="https://img.shields.io/badge/-AI_Founder-000000?style=flat-square&labelColor=000000" alt="AI Founder">
   <img src="https://img.shields.io/badge/-Art_%26_Philosophy-000000?style=flat-square&labelColor=000000" alt="Art & Philosophy">
 </p>
@@ -123,7 +124,7 @@ Public repositories are grouped by owner and role. Forks are excluded from this 
 
 ## About
 
-I am an undergraduate researcher in theoretical and experimental physics — with a current focus on **Spintronics** — a founder preparing to launch a personal-optimization AI service, and the director of an online platform exploring the discourse between art and philosophy.
+I am a **Data Scientist at TheSunHan** driving B2B AI Agent innovation, an undergraduate researcher in theoretical and experimental physics with a current focus on **Spintronics**, a co-founder building personal-optimization AI products, and the director of an online platform exploring the discourse between art and philosophy.
 
 These roles may look distinct, but I do not treat them as separate career paths. Every project is a calculated step toward a single, long-horizon ambition: addressing a fundamental problem I define privately at the scale of civilization. My work attempts to bridge **rigorous physical law**, **algorithmic efficiency**, and **humanistic inquiry** toward that solution.
 
@@ -133,23 +134,35 @@ Because this mission requires more than one perspective, I am always open to con
 
 ## Current Work
 
-**Research Intern — KAIST Ultrafast Spin Dynamics Lab** &nbsp;·&nbsp; *Oct 2025 – Present*<br>
-Prof. Kab-jin Kim's group. Experimental and theoretical study of ferrimagnetic domain-wall (FiM DW) motion, with a focus on scalability and potential expansion into industrial applications.
+**Data Scientist — TheSunHan** &nbsp;·&nbsp; *Jul 2026 – Present*<br>
+Driving B2B AI Agent innovation through experimental initiatives and development projects.
 
-**Co-Founder — Stealth AI Startup** &nbsp;·&nbsp; *Aug 2025 – Present* &nbsp;·&nbsp; *Pre-launch, in preparation*<br>
-Developing a real-time optimization-driven B2C AI service. Algorithm design, UI design, marketing.
+**Research Intern — KAIST Ultrafast Spin Dynamics Lab** &nbsp;·&nbsp; *Oct 2025 – Present*<br>
+Prof. Kab-jin Kim's group. Experimental research on ferromagnetic domain-wall motion and its application to neuromorphic computing.
+
+**Co-Founder — OPTIMETA** &nbsp;·&nbsp; *Mar 2026 – Present* &nbsp;·&nbsp; *Pre-launch, in preparation*<br>
+Building personal-optimization AI products for study and learning environments in a two-person founding team; responsible for front-end development, algorithm design, external engagement, and marketing.
 
 **Director / Editor — HUSTLY ARCHIV** &nbsp;·&nbsp; *Jan 2025 – Present*<br>
 An Instagram platform on culture and philosophy. 3K+ followers, 1M+ views. [@hustlyarchiv.kr](https://www.instagram.com/hustlyarchiv.kr/)
 
+**Operator — Trendchaser** &nbsp;·&nbsp; *Apr 2026 – Present*<br>
+An AI/dev news community and automated curation pipeline distilling 150+ daily sources into KakaoTalk briefs.
+
+**Co-Founder — Soft Coding Club** &nbsp;·&nbsp; *Jun 2026 – Present*<br>
+A maker collective spanning design and engineering prototypes.
+
+**Member (9th) — Founders** &nbsp;·&nbsp; *Jul 2026 – Present*<br>
+A young founders’ community across Korean universities.
+
 **Member — GDG on Campus, KAIST** &nbsp;·&nbsp; *Mar 2026 – Present*<br>
-Google Developers Group, KAIST chapter.
+AI paper study, group projects, and seminars in the KAIST chapter.
 
 ---
 
 ## Background
 
-**KAIST**, Bachelor of Science — Physics & Mathematical Science (Double Major) &nbsp;·&nbsp; 2022 – 2029
+**KAIST**, Bachelor of Science — Physics & Mathematical Sciences (Double Major) &nbsp;·&nbsp; 2022 – Present
 
 - **Undergraduate Researcher**, KAIST Quantum Spin Dynamics Lab (Prof. Se-Kwon Kim) &nbsp;·&nbsp; *Jun 2023 – Mar 2024*<br>
   Theoretical modeling and simulation of domain-wall motion in spintronics (`mumax3`, Python).
@@ -159,7 +172,7 @@ Google Developers Group, KAIST chapter.
 
 **Gyeongnam Science High School** — Early Graduation &nbsp;·&nbsp; *Mar 2020 – Feb 2022*
 
-**Republic of Korea Army** — Sergeant, honorably discharged.
+**Republic of Korea Army** — Sergeant, honorably discharged &nbsp;·&nbsp; *Apr 2024 – Sep 2025*
 
 **National Science & Technology Scholarship** — Korea Student Aid Foundation, 2022.
 
