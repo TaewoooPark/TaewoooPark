@@ -38,9 +38,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white&labelColor=000000" alt="Python">
-  <img src="https://img.shields.io/badge/-Go-000000?style=flat-square&logo=go&logoColor=white&labelColor=000000" alt="Go">
   <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=white&labelColor=000000" alt="TypeScript">
   <img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=white&labelColor=000000" alt="JavaScript">
+  <img src="https://img.shields.io/badge/-Go-000000?style=flat-square&logo=go&logoColor=white&labelColor=000000" alt="Go">
   <img src="https://img.shields.io/badge/-C%2B%2B-000000?style=flat-square&logo=cplusplus&logoColor=white&labelColor=000000" alt="C++">
   <img src="https://img.shields.io/badge/-Objective--C%2B%2B-000000?style=flat-square&logo=apple&logoColor=white&labelColor=000000" alt="Objective-C++">
   <img src="https://img.shields.io/badge/-Shell-000000?style=flat-square&logo=gnubash&logoColor=white&labelColor=000000" alt="Shell">
