@@ -194,7 +194,7 @@ AI paper study, group projects, and seminars in the KAIST chapter.
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/TaewoooPark?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=333333" alt="Followers">
-  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaewoooPark%2FTaewoooPark%2Fmain%2Fassets%2Ftotal-stars.json%3Fv%3D20260731T221420Z&style=for-the-badge&logo=github&logoColor=white&cacheSeconds=300" alt="Total stars (personal + OPTIMETA)">
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaewoooPark%2FTaewoooPark%2Fmain%2Fassets%2Ftotal-stars.json%3Fv%3D20260801T220846Z&style=for-the-badge&logo=github&logoColor=white&cacheSeconds=300" alt="Total stars (personal + OPTIMETA)">
   <img src="https://komarev.com/ghpvc/?username=TaewoooPark&style=for-the-badge&color=333333&labelColor=000000&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
