@@ -95,8 +95,6 @@
 
 Public repositories are grouped by owner and role. Forks are excluded from this index.
 
-### Personal Public Repositories
-
 | Type | Project | Summary | Badges | External links |
 |---|---|---|---|---|
 | Identity / Site | **[Profile README / taewoopark.com](https://github.com/TaewoooPark/TaewoooPark)** | Public profile, portfolio gateway, and GitHub metrics automation for the overview. | ![stars](https://img.shields.io/github/stars/TaewoooPark/TaewoooPark?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333) ![last commit](https://img.shields.io/github/last-commit/TaewoooPark/TaewoooPark?style=flat-square&labelColor=000000&color=333333) ![site](https://img.shields.io/badge/site-live-000000?style=flat-square&logo=vercel&logoColor=white) | [Live site](https://taewoopark.com) |
