@@ -147,43 +147,43 @@ Public repositories are grouped by owner and role. Forks are excluded from this 
 
 ## About
 
-I am a **Data Scientist at TheSunHan** driving B2B AI Agent innovation, an undergraduate researcher in theoretical and experimental physics with a current focus on **Spintronics**, a co-founder building personal-optimization AI products, and the director of an online platform exploring the discourse between art and philosophy.
+I'm a **Physics and Mathematical Sciences student at KAIST**, a spintronics researcher, and a co-founder of **OPTIMETA**, where we build personalized learning software. I also direct **HUSTLY ARCHIV**, where I write and edit work on music, culture, and philosophy, and make interactive art through **Soft Coding Club**.
 
-These roles may look distinct, but I do not treat them as separate career paths. Every project is a calculated step toward a single, long-horizon ambition: addressing a fundamental problem I define privately at the scale of civilization. My work attempts to bridge **rigorous physical law**, **algorithmic efficiency**, and **humanistic inquiry** toward that solution.
+I build **AI for Science from the bottom up**: start with a bottleneck in a researcher's working day, make the underlying tool reliable, then connect it to an agent workflow. My open-source work spans native micromagnetic simulation on Apple Silicon, scientific research agents, tools for inspecting agent behavior, and distributed inference.
 
-Because this mission requires more than one perspective, I am always open to connecting with builders and thinkers across disciplines.
+Across these projects, I care about **intelligence sovereignty**: giving people control over the computation, context, and records they depend on. That means a simulation they can run, a learning history they can keep, and a decision they can inspect—even if the service or agent behind it changes.
 
 ---
 
 ## Current Work
 
-**Data Scientist — TheSunHan** &nbsp;·&nbsp; *Jul 2026 – Present*<br>
-Driving B2B AI Agent innovation through experimental initiatives and development projects.
-
 **Research Intern — KAIST Ultrafast Spin Dynamics Lab** &nbsp;·&nbsp; *Oct 2025 – Present*<br>
-Prof. Kab-jin Kim's group. Experimental research on ferromagnetic domain-wall motion and its application to neuromorphic computing.
+I study experimental ferromagnetic domain-wall motion and its application to neuromorphic computing in Prof. Kab-jin Kim's group. Alongside the lab work, I build open-source tools for micromagnetic simulation, scientific agent workflows, and instrument control, extending my earlier work in theoretical spintronics.
 
-**Co-Founder — OPTIMETA** &nbsp;·&nbsp; *Mar 2026 – Present* &nbsp;·&nbsp; *Pre-launch, in preparation*<br>
-Building personal-optimization AI products for study and learning environments in a two-person founding team; responsible for front-end development, algorithm design, external engagement, and marketing.
+**Co-Founder — OPTIMETA** &nbsp;·&nbsp; *Mar 2026 – Present*<br>
+We are a two-person team building a **Personal Study Operating System** around each student's own lectures, assignments, and learning history. Our released tools include **PAIDEIA**, its agent-platform editions, and **Exam Radar**; the broader product remains in preparation. I work on front-end development, algorithm design, external engagement, and marketing.
 
 **Director / Editor — HUSTLY ARCHIV** &nbsp;·&nbsp; *Jan 2025 – Present*<br>
-An Instagram platform on culture and philosophy. 3K+ followers, 1M+ views. [@hustlyarchiv.kr](https://www.instagram.com/hustlyarchiv.kr/)
+I publish essays and conversations that connect music and artists to questions of culture, society, and philosophy. The platform has grown to **3K+ followers and 1M+ views**, with long-form writing at its center. [@hustlyarchiv.kr](https://www.instagram.com/hustlyarchiv.kr/)
 
 **Operator — Trendchaser** &nbsp;·&nbsp; *Apr 2026 – Present*<br>
-An AI/dev news community and automated curation pipeline distilling 150+ daily sources into KakaoTalk briefs.
+I run an AI and developer news community with **four source-linked briefs a day**, delivered through KakaoTalk and preserved in a web archive. The curation pipeline monitors **184 effective channels**, filters and reviews the material, and makes the archive available to agents through a companion MCP server.
 
 **Co-Founder — Soft Coding Club** &nbsp;·&nbsp; *Jun 2026 – Present*<br>
-A maker collective spanning design and engineering prototypes.
-
-**Member (9th) — Founders** &nbsp;·&nbsp; *Jul 2026 – Present*<br>
-A young founders’ community across Korean universities.
+I co-founded the club with Namkyu Yeo to explore code as a material for art and expression. Our weekly meetings over the summer led to **SCC : Free Exhibition**, where I exhibited **Zweistein** and **AGI: Anxiety Generating Intelligence**.
 
 **Member — GDG on Campus, KAIST** &nbsp;·&nbsp; *Mar 2026 – Present*<br>
-AI paper study, group projects, and seminars in the KAIST chapter.
+I take part in AI paper studies, group projects, and seminars with the KAIST chapter.
 
 ---
 
 ## Background
+
+**Data Scientist — PEAKRO** &nbsp;·&nbsp; *Jul 2026 – Sep 2026*<br>
+Seoul, South Korea · Hybrid.
+
+**Member — FOUNDERS_KR** &nbsp;·&nbsp; *Jul 2026 – Sep 2026*<br>
+A community of young founders across Korean universities.
 
 **KAIST**, Bachelor of Science — Physics & Mathematical Sciences (Double Major) &nbsp;·&nbsp; 2022 – Present
 
