@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: update-total-stars
+  group: update-profile-assets
   cancel-in-progress: false
 
 permissions:
@@ -97,4 +97,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh total stars badge"
+          git pull --rebase origin main
           git push

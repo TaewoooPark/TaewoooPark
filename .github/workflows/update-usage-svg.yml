@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: update-agent-usage-svg
+  group: update-profile-assets
   cancel-in-progress: false
 
 permissions:
@@ -46,16 +46,18 @@ jobs:
         run: |
           mkdir -p assets
           python scripts/generate_svg.py scripts/usage.json assets/agent-usage.svg
+          python scripts/refresh_asset_cache.py assets/agent-usage.svg
 
       - name: Commit if changed
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/agent-usage.svg
+          git add assets/agent-usage.svg README.md
           if git diff --cached --quiet; then
             echo "no change"
             exit 0
           fi
           git commit -m "chore: refresh agent usage SVG"
+          git pull --rebase origin main
           git push

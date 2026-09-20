@@ -90,12 +90,31 @@ every public repository owned by `TaewoooPark` plus every public repository in
 the `OPTIMETA` organization. Forks are included here because the badge is an
 all-repository total; the Featured Projects table can still exclude forks.
 
+## Contribution Activity Graph
+
+`assets/activity-graph.svg` is generated from the anonymous public GitHub
+contribution calendar by `scripts/generate_activity_graph.py`. It displays the
+latest 31 calendar days in UTC, including the current partial day. This uses
+the same public counts visible on the profile, including anonymized private
+contributions only when the profile owner has chosen to display them.
+
+The `activity-graph.yml` workflow refreshes the graph daily at 06:20 KST and
+supports manual runs. The README serves the committed SVG from this repository,
+so rendering does not depend on the external activity-graph deployment.
+If fetching or parsing fails, the existing graph stays available.
+
+Generated SVG image URLs use a content hash to refresh GitHub's image cache
+whenever the image changes. All profile update workflows share one concurrency
+group to avoid simultaneous pushes, and rebase on the latest main before pushing.
+
 ## Schedule reference
 
 | When                              | Who runs it             | What happens                          |
 | --------------------------------- | ----------------------- | ------------------------------------- |
 | every 4 h (00/04/08/12/16/20 KST) | launchd on your Mac     | ccusage agent usage → Gist            |
 | 5 min later (UTC 03/07/11/15/19/23 :05) | GitHub Actions cron | Gist → SVG → commit                   |
+| daily at 06:10 KST                 | GitHub Actions cron     | public repository stars → badge      |
+| daily at 06:20 KST                 | GitHub Actions cron     | public contributions → activity SVG  |
 | any time                          | Actions → Run workflow  | manual refresh (uses latest Gist)     |
 
 GitHub cron can drift by several minutes under load; that's fine.
