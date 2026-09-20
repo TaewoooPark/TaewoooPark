@@ -168,7 +168,7 @@ We are a two-person team building a **Personal Study Operating System** around e
 I publish essays and conversations that connect music and artists to questions of culture, society, and philosophy. The platform has grown to **3K+ followers and 1M+ views**, with long-form writing at its center. [@hustlyarchiv.kr](https://www.instagram.com/hustlyarchiv.kr/)
 
 **Operator — Trendchaser** &nbsp;·&nbsp; *Apr 2026 – Present*<br>
-I run an AI and developer news community with **four source-linked briefs a day**, delivered through KakaoTalk and preserved in a web archive. The curation pipeline monitors **184 effective channels**, filters and reviews the material, and makes the archive available to agents through a companion MCP server.
+I run an AI and developer news community with **500+ members**, publishing **four source-linked briefs a day** through KakaoTalk and preserving them in a web archive. The curation pipeline monitors **184 effective channels**, filters and reviews the material, and makes the archive available to agents through a companion MCP server.
 
 **Co-Founder — Soft Coding Club** &nbsp;·&nbsp; *Jun 2026 – Present*<br>
 I co-founded the club with Namkyu Yeo to explore code as a material for art and expression. Our weekly meetings over the summer led to **SCC : Free Exhibition**, where I exhibited **Zweistein** and **AGI: Anxiety Generating Intelligence**.
