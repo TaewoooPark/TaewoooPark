@@ -17,16 +17,9 @@
   <img src="https://img.shields.io/badge/-Art_%26_Philosophy-000000?style=flat-square&labelColor=000000" alt="Art & Philosophy">
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="912">
-      <h2>OpenLab</h2>
-      <p>A shared community for Motifcode and Taewoo Park's open-source projects.<br>Ask questions, share what you build, and find your first contribution.</p>
-      <p><a href="https://discord.gg/5d99wCtzc"><img src="https://img.shields.io/badge/Join_OpenLab-Discord-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white&amp;labelColor=000000" alt="Join OpenLab on Discord"></a></p>
-      <sub>AI agents · Scientific computing · Open-source tools</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://discord.gg/5d99wCtzc"><img src="https://img.shields.io/badge/Join_OpenLab-Discord-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white&amp;labelColor=000000" alt="Join OpenLab on Discord"></a>
+</p>
 
 ---
 
