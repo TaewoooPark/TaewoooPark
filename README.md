@@ -227,7 +227,7 @@ A community of young founders across Korean universities.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/activity-graph.svg?v=3262b546f1f3" alt="Contribution activity graph">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/activity-graph.svg?v=ab78d6afee70" alt="Contribution activity graph">
 </p>
 
 ---
