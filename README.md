@@ -235,5 +235,5 @@ A community of young founders across Korean universities.
 ## Agent Usage (Last 30 Days)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/agent-usage.svg?v=eeb70458c5e4" alt="Agent usage — last 30 days">
+  <img src="https://raw.githubusercontent.com/TaewoooPark/TaewoooPark/main/assets/agent-usage.svg?v=bad56a7d6a39" alt="Agent usage — last 30 days">
 </p>
